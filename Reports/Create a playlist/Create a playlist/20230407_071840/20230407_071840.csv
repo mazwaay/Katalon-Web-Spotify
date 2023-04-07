@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create a playlist,Chrome 112.0.0.0,,,2023-04-07 07:18:42,2023-04-07 07:20:57,2m - 15.225s,PASSED
+,,,,,,,
+Test Cases/Create a playlist/CPLAY-01,Chrome 112.0.0.0,Membuat playlist baru,,2023-04-07 07:18:42,2023-04-07 07:19:05,23.277s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 07:18:42,2023-04-07 07:18:42,0.015s,PASSED
+"callTestCase(findTestCase(""Create a playlist/LOGIN""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-07 07:18:42,2023-04-07 07:18:59,16.450s,PASSED
+"click(findTestObject(""Create a playlist-Repo/CreatePlaylist_button""))",Chrome 112.0.0.0,,,2023-04-07 07:18:59,2023-04-07 07:19:02,2.771s,PASSED
+"verifyElementText(findTestObject(""Create a playlist-Repo/Assert_Playlist""), ""Playlist"")",Chrome 112.0.0.0,,,2023-04-07 07:19:02,2023-04-07 07:19:03,1.385s,PASSED
+"getText(findTestObject(""Create a playlist-Repo/getText_MyPlaylist""))",Chrome 112.0.0.0,,,2023-04-07 07:19:03,2023-04-07 07:19:03,0.332s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 07:19:05,2023-04-07 07:19:05,0.001s,PASSED
+,,,,,,,
+Test Cases/Create a playlist/CPLAY-02,Chrome 112.0.0.0,"mengganti nama playlist kurang 
+dari 100 karakter",,2023-04-07 07:19:05,2023-04-07 07:19:30,24.638s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 07:19:05,2023-04-07 07:19:05,0.002s,PASSED
+"callTestCase(findTestCase(""Create a playlist/LOGIN""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-07 07:19:06,2023-04-07 07:19:20,14.395s,PASSED
+"click(findTestObject(""Create a playlist-Repo/YourLibrary_button""))",Chrome 112.0.0.0,,,2023-04-07 07:19:20,2023-04-07 07:19:23,3.041s,PASSED
+"click(findTestObject(""Create a playlist-Repo/New_Playlist""))",Chrome 112.0.0.0,,,2023-04-07 07:19:23,2023-04-07 07:19:25,1.706s,PASSED
+"click(findTestObject(""Create a playlist-Repo/MyPlaylist_name""))",Chrome 112.0.0.0,,,2023-04-07 07:19:25,2023-04-07 07:19:26,0.793s,PASSED
+"setText(findTestObject(""Create a playlist-Repo/namePlaylist_inputText""), ""My Awesome Playlist"")",Chrome 112.0.0.0,,,2023-04-07 07:19:26,2023-04-07 07:19:27,1.163s,PASSED
+"click(findTestObject(""Create a playlist-Repo/Save_button""))",Chrome 112.0.0.0,,,2023-04-07 07:19:27,2023-04-07 07:19:27,0.507s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 07:19:27,2023-04-07 07:19:28,0.706s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 07:19:30,2023-04-07 07:19:30,0.001s,PASSED
+,,,,,,,
+Test Cases/Create a playlist/CPLAY-03,Chrome 112.0.0.0,"""mengganti nama playlist lebih 
+dari 100 karakter""",,2023-04-07 07:19:30,2023-04-07 07:19:54,23.640s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 07:19:30,2023-04-07 07:19:30,0.003s,PASSED
+"callTestCase(findTestCase(""Create a playlist/LOGIN""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-07 07:19:30,2023-04-07 07:19:43,12.379s,PASSED
+"click(findTestObject(""Create a playlist-Repo/YourLibrary_button""))",Chrome 112.0.0.0,,,2023-04-07 07:19:43,2023-04-07 07:19:46,3.493s,PASSED
+"click(findTestObject(""Create a playlist-Repo/New_Playlist""))",Chrome 112.0.0.0,,,2023-04-07 07:19:46,2023-04-07 07:19:47,1.182s,PASSED
+"click(findTestObject(""Create a playlist-Repo/MyPlaylist_name""))",Chrome 112.0.0.0,,,2023-04-07 07:19:47,2023-04-07 07:19:48,0.686s,PASSED
+"setText(findTestObject(""Create a playlist-Repo/namePlaylist_inputText""), ""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore "")",Chrome 112.0.0.0,,,2023-04-07 07:19:48,2023-04-07 07:19:49,1.148s,PASSED
+"verifyTextPresent(""100/100"", false)",Chrome 112.0.0.0,,,2023-04-07 07:19:49,2023-04-07 07:19:50,0.547s,PASSED
+"click(findTestObject(""Create a playlist-Repo/Save_button""))",Chrome 112.0.0.0,,,2023-04-07 07:19:50,2023-04-07 07:19:51,1.204s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 07:19:51,2023-04-07 07:19:52,0.696s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 07:19:54,2023-04-07 07:19:54,0.001s,PASSED
+,,,,,,,
+Test Cases/Create a playlist/CPLAY-04,Chrome 112.0.0.0,mengganti deskripsi playlist kurang dari 300 karakter,,2023-04-07 07:19:54,2023-04-07 07:20:13,19.693s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 07:19:54,2023-04-07 07:19:54,0.001s,PASSED
+"callTestCase(findTestCase(""Create a playlist/LOGIN""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-07 07:19:54,2023-04-07 07:20:06,12.059s,PASSED
+"click(findTestObject(""Create a playlist-Repo/YourLibrary_button""))",Chrome 112.0.0.0,,,2023-04-07 07:20:06,2023-04-07 07:20:06,0.475s,PASSED
+"click(findTestObject(""Create a playlist-Repo/New_Playlist""))",Chrome 112.0.0.0,,,2023-04-07 07:20:06,2023-04-07 07:20:08,1.698s,PASSED
+"click(findTestObject(""Create a playlist-Repo/MyPlaylist_name""))",Chrome 112.0.0.0,,,2023-04-07 07:20:08,2023-04-07 07:20:09,0.717s,PASSED
+"setText(findTestObject(""Create a playlist-Repo/Description_inputText""), ""A collection of my favorite songs"")",Chrome 112.0.0.0,,,2023-04-07 07:20:09,2023-04-07 07:20:10,1.287s,PASSED
+"click(findTestObject(""Create a playlist-Repo/Save_button""))",Chrome 112.0.0.0,,,2023-04-07 07:20:10,2023-04-07 07:20:11,0.477s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 07:20:11,2023-04-07 07:20:11,0.684s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 07:20:13,2023-04-07 07:20:13,0.002s,PASSED
+,,,,,,,
+Test Cases/Create a playlist/CPLAY-05,Chrome 112.0.0.0,mengganti deskripsi playlist lebih dari 300 karakter,,2023-04-07 07:20:13,2023-04-07 07:20:35,21.872s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 07:20:13,2023-04-07 07:20:13,0.002s,PASSED
+"callTestCase(findTestCase(""Create a playlist/LOGIN""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-07 07:20:14,2023-04-07 07:20:27,13.504s,PASSED
+"click(findTestObject(""Create a playlist-Repo/YourLibrary_button""))",Chrome 112.0.0.0,,,2023-04-07 07:20:27,2023-04-07 07:20:28,0.786s,PASSED
+"click(findTestObject(""Create a playlist-Repo/New_Playlist""))",Chrome 112.0.0.0,,,2023-04-07 07:20:28,2023-04-07 07:20:29,1.218s,PASSED
+"click(findTestObject(""Create a playlist-Repo/MyPlaylist_name""))",Chrome 112.0.0.0,,,2023-04-07 07:20:29,2023-04-07 07:20:30,0.750s,PASSED
+"setText(findTestObject(""Create a playlist-Repo/Description_inputText""), ""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu"")",Chrome 112.0.0.0,,,2023-04-07 07:20:30,2023-04-07 07:20:31,1.678s,PASSED
+"verifyTextPresent(""300/300"", false)",Chrome 112.0.0.0,,,2023-04-07 07:20:31,2023-04-07 07:20:32,0.550s,PASSED
+"click(findTestObject(""Create a playlist-Repo/Save_button""))",Chrome 112.0.0.0,,,2023-04-07 07:20:32,2023-04-07 07:20:32,0.360s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 07:20:32,2023-04-07 07:20:33,0.693s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 07:20:35,2023-04-07 07:20:35,0.001s,PASSED
+,,,,,,,
+Test Cases/Create a playlist/CPLAY-06,Chrome 112.0.0.0,Mengkosongkan nama playlist,,2023-04-07 07:20:35,2023-04-07 07:20:57,21.932s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 07:20:35,2023-04-07 07:20:35,0.001s,PASSED
+"callTestCase(findTestCase(""Create a playlist/LOGIN""), [:], STOP_ON_FAILURE)",Chrome 112.0.0.0,,,2023-04-07 07:20:35,2023-04-07 07:20:47,11.223s,PASSED
+"click(findTestObject(""Create a playlist-Repo/YourLibrary_button""))",Chrome 112.0.0.0,,,2023-04-07 07:20:47,2023-04-07 07:20:48,0.907s,PASSED
+"click(findTestObject(""Create a playlist-Repo/New_Playlist""))",Chrome 112.0.0.0,,,2023-04-07 07:20:48,2023-04-07 07:20:50,2.397s,PASSED
+"click(findTestObject(""Create a playlist-Repo/MyPlaylist_name""))",Chrome 112.0.0.0,,,2023-04-07 07:20:50,2023-04-07 07:20:52,2.224s,PASSED
+"setText(findTestObject(""Create a playlist-Repo/namePlaylist_inputText""), ""My Awesome Playlist"")",Chrome 112.0.0.0,,,2023-04-07 07:20:52,2023-04-07 07:20:53,0.826s,PASSED
+"sendKeys(findTestObject(""Create a playlist-Repo/namePlaylist_inputText""), Keys.chord(CONTROL, ""a""))",Chrome 112.0.0.0,,,2023-04-07 07:20:53,2023-04-07 07:20:53,0.470s,PASSED
+"sendKeys(findTestObject(""Create a playlist-Repo/namePlaylist_inputText""), Keys.chord(BACK_SPACE))",Chrome 112.0.0.0,,,2023-04-07 07:20:53,2023-04-07 07:20:54,0.321s,PASSED
+"verifyElementText(findTestObject(""Create a playlist-Repo/Assert_name_required""), ""Playlist name is required."")",Chrome 112.0.0.0,,,2023-04-07 07:20:54,2023-04-07 07:20:54,0.524s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 07:20:54,2023-04-07 07:20:55,0.711s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 07:20:57,2023-04-07 07:20:57,0.001s,PASSED

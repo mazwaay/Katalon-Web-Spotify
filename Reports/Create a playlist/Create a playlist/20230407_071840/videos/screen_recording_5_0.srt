@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:00,234
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,235 --> 00:00:00,304
+1. callTestCase(findTestCase("Create a playlist/LOGIN"), [:], STOP_ON_FAILURE)
+
+3
+00:00:00,305 --> 00:00:01,415
+1. openBrowser("")
+
+4
+00:00:01,417 --> 00:00:01,577
+5. maximizeWindow()
+
+5
+00:00:01,578 --> 00:00:02,853
+9. navigateToUrl(website)
+
+6
+00:00:02,853 --> 00:00:04,933
+13. click(findTestObject("Login-Repo/Login_button(homepage)"))
+
+7
+00:00:04,934 --> 00:00:07,139
+17. setText(findTestObject("Login-Repo/Email_inputText"), Valid_email)
+
+8
+00:00:07,139 --> 00:00:07,819
+21. setText(findTestObject("Login-Repo/Password_inputText"), Valid_password)
+
+9
+00:00:07,819 --> 00:00:08,167
+25. click(findTestObject("Login-Repo/RememberMe_check_button"))
+
+10
+00:00:08,171 --> 00:00:08,529
+29. click(findTestObject("Login-Repo/Login_button(loginpage)"))
+
+11
+00:00:08,530 --> 00:00:11,536
+33. delay(3)
+
+12
+00:00:11,537 --> 00:00:13,738
+37. verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home")
+
+13
+00:00:13,739 --> 00:00:14,524
+5. click(findTestObject("Create a playlist-Repo/YourLibrary_button"))
+
+14
+00:00:14,525 --> 00:00:15,742
+9. click(findTestObject("Create a playlist-Repo/New_Playlist"))
+
+15
+00:00:15,742 --> 00:00:16,492
+13. click(findTestObject("Create a playlist-Repo/MyPlaylist_name"))
+
+16
+00:00:16,493 --> 00:00:18,170
+17. setText(findTestObject("Create a playlist-Repo/Description_inputText"), "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu")
+
+17
+00:00:18,171 --> 00:00:18,721
+21. verifyTextPresent("300/300", false)
+
+18
+00:00:18,721 --> 00:00:19,081
+25. click(findTestObject("Create a playlist-Repo/Save_button"))
+
+19
+00:00:19,081 --> 00:00:19,774
+29. closeBrowser()
+
+20
+00:00:21,875 --> 00:00:21,875
+1. println(testCaseContext.getTestCaseId())
+

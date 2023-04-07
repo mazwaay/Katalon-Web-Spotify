@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Login_button(loginpage)</name>
+   <tag></tag>
+   <elementGuidId>ff3a3649-844c-40ce-9044-5aa6f32d4a02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='login-button']/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ButtonInner-sc-14ud5tc-0.cJdEzG.encore-bright-accent-set > span.Type__TypeElement-sc-goli3j-0.kwLSIj.sc-eDvSVe.itlAHd</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8d9cbf51-a7ac-4084-add2-aad4e52a606e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Type__TypeElement-sc-goli3j-0 kwLSIj sc-eDvSVe itlAHd</value>
+      <webElementGuid>0dfd31bc-0274-4147-a338-0f69e5eccd26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-encore-id</name>
+      <type>Main</type>
+      <value>type</value>
+      <webElementGuid>2af49c12-f5ea-4ee8-837e-4cdb5fda4ac1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log In</value>
+      <webElementGuid>b2fc2b3b-aeef-4ebb-b7a1-66d144a14da0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;login-button&quot;)/span[@class=&quot;ButtonInner-sc-14ud5tc-0 cJdEzG encore-bright-accent-set&quot;]/span[@class=&quot;Type__TypeElement-sc-goli3j-0 kwLSIj sc-eDvSVe itlAHd&quot;]</value>
+      <webElementGuid>fcc863dc-99f6-4427-99f9-dc9a1082f659</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='login-button']/span/span</value>
+      <webElementGuid>d64a395d-2a38-41fd-946b-f02f43837e26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[5]</value>
+      <webElementGuid>6d653b7f-dbb7-44a6-9eac-62bcd0c11cec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address or username'])[1]/following::span[6]</value>
+      <webElementGuid>d986498d-97eb-4d4b-ad0e-31d78a85ef49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Don', &quot;'&quot;, 't have an account?')])[1]/preceding::span[2]</value>
+      <webElementGuid>72be1ffb-33ae-43b4-9749-94f232e3a689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up for Spotify'])[1]/preceding::span[2]</value>
+      <webElementGuid>09d6e6e8-d453-4b41-abfa-ad6a96e5e239</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log In']/parent::*</value>
+      <webElementGuid>13e90ab9-d0ea-4e78-8712-d2399c68b3da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/span/span</value>
+      <webElementGuid>ce2dfb8b-87c4-4853-abec-02f688e66b6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Log In' or . = 'Log In')]</value>
+      <webElementGuid>e0e18766-671b-4b05-84c5-4572aff5bd21</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

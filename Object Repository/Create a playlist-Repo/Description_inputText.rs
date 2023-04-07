@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Description_inputText</name>
+   <tag></tag>
+   <elementGuidId>25644768-b4f3-4ea8-a038-13261e8891f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.f0GjZQZc4c_bKpqdyKbq.c0CddR8wF7kDxvU6uM8B</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>6f097d27-a21c-4142-abe5-512f56029cad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>playlist-edit-details-description-input</value>
+      <webElementGuid>3041a399-7b0c-42f1-84aa-596ab5220e7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>f0GjZQZc4c_bKpqdyKbq c0CddR8wF7kDxvU6uM8B</value>
+      <webElementGuid>0e6f04cd-9408-468c-9790-88850c28659d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Add an optional description</value>
+      <webElementGuid>abff7c18-42ad-4960-99da-83b9046a866d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-focus-outline spotify__os--is-windows spotify__container--is-web&quot;]/body[@class=&quot;GenericModal__Body--open&quot;]/div[@class=&quot;ReactModalPortal&quot;]/div[@class=&quot;GenericModal__overlay&quot;]/div[@class=&quot;GenericModal encore-dark-theme&quot;]/div[@class=&quot;PiyAiXdQULEnWAHP0tu1&quot;]/div[@class=&quot;CU0wnmWejIvyEsRRtSac&quot;]/div[@class=&quot;_qRr3jb13hOiy1EvSL_r&quot;]/textarea[@class=&quot;f0GjZQZc4c_bKpqdyKbq c0CddR8wF7kDxvU6uM8B&quot;]</value>
+      <webElementGuid>31f53496-0164-4d55-9d8f-29d913cfc53a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/textarea</value>
+      <webElementGuid>a5411a7f-adb5-4cb8-aa09-85f54003a787</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@placeholder = 'Add an optional description']</value>
+      <webElementGuid>8d953bee-99b7-401a-a28d-ec16d74b1178</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

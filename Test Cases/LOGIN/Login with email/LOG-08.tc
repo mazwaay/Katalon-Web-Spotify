@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login menggunakan email yang tidak valid (tanpa menggunakan &quot;.&quot;)</description>
+   <name>LOG-08</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a483b6e7-9fd1-4ca8-9f40-0394168fe384</testCaseGuid>
+</TestCaseEntity>

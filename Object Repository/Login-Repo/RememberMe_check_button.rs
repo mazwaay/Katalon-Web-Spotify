@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RememberMe_check_button</name>
+   <tag></tag>
+   <elementGuidId>5df1b368-4678-4879-8523-a4d602171bf6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div/div[3]/div/div/label/span[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.Type__TypeElement-sc-goli3j-0.gkqrGP.sc-eDWCr.hDJnrz</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>68ce91ae-02ef-4cfc-b596-5fd496f68f8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Type__TypeElement-sc-goli3j-0 gkqrGP sc-eDWCr hDJnrz</value>
+      <webElementGuid>908c3e89-34be-4c92-b15a-19a7f788fe20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-encore-id</name>
+      <type>Main</type>
+      <value>type</value>
+      <webElementGuid>3d8f342b-3bb8-4ef9-a4ca-649aeecce119</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Remember me</value>
+      <webElementGuid>bd71552c-d243-477a-9ed7-1d0c27d51e32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-bCfvAP cIiHZY&quot;]/div[@class=&quot;sc-khsqcC kLHzHb&quot;]/div[@class=&quot;sc-hTBuwn dPHlwQ&quot;]/div[@class=&quot;sc-gswNZR wKwWn&quot;]/div[1]/div[@class=&quot;sc-hHTYSt fkfHMZ&quot;]/div[@class=&quot;Group-sc-u9bcx5-0 kWRxyd sc-bjfHbI gRAfve&quot;]/div[@class=&quot;Checkbox-sc-svpvf6-0 ktsNkz&quot;]/label[@class=&quot;Label-sc-cpoq-0 bbKAxy&quot;]/span[@class=&quot;TextForLabel-sc-1jqya9m-0 hGXvoZ&quot;]/p[@class=&quot;Type__TypeElement-sc-goli3j-0 gkqrGP sc-eDWCr hDJnrz&quot;]</value>
+      <webElementGuid>0e497d65-e3ab-4551-8d5a-de3748acdfa4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/div[3]/div/div/label/span[2]/p</value>
+      <webElementGuid>e5cbd093-e05d-4b1d-8bdd-a98277743338</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::p[1]</value>
+      <webElementGuid>840e3602-c2cc-44f1-9870-15b596dc236b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address or username'])[1]/following::p[1]</value>
+      <webElementGuid>f035d29b-1631-425c-b8ad-a2eaced06e65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log In'])[1]/preceding::p[1]</value>
+      <webElementGuid>a7b12aa3-278c-443a-b033-05664561ec8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Don', &quot;'&quot;, 't have an account?')])[1]/preceding::p[1]</value>
+      <webElementGuid>265dbdc8-fa5e-4c39-9887-2c2701f13def</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Remember me']/parent::*</value>
+      <webElementGuid>9d8d1cd2-7f31-41e8-bb8f-3c16449fd8d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/p</value>
+      <webElementGuid>4063586d-cd16-46d8-8e23-75a088154c0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Remember me' or . = 'Remember me')]</value>
+      <webElementGuid>ae412140-d52c-4ba5-8d86-a9b0ffef9c2e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

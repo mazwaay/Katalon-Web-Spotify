@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan phone number terdaftar dan memasukkan kode OTP salah</description>
+   <name>LOG-16</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>037f1109-1efd-4544-a595-284075d47d74</testCaseGuid>
+</TestCaseEntity>

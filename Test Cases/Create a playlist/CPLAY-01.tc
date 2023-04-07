@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Membuat playlist baru</description>
+   <name>CPLAY-01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1416f927-c709-4657-9b6d-79a25499d57b</testCaseGuid>
+</TestCaseEntity>

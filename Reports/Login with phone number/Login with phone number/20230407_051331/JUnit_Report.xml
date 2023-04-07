@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login with phone number" time="201.778" tests="8" failures="3" errors="0">
+   <testsuite name="Login with phone number" tests="8" failures="3" errors="0" time="201.778" skipped="0" timestamp="2023-04-07 05:13:33" hostname="wahyu - 192.168.195.106" id="Test Suites/Login with phone number">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331"/>
+         <property name="logFiles" value="C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\1680819257940.png, C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\1680819258056.png, C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\1680819308628.png, C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\1680819308703.png, C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\1680819351555.png"/>
+         <property name="hostName" value="wahyu - 192.168.195.106"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="192.168.195.106"/>
+         <property name="sessionId" value="64247004a1a3bd90c5c96f1f7ab73502"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN/Login with phone number/LOG-14" time="46.81" classname="Test Cases/LOGIN/Login with phone number/LOG-14" status="FAILED">
+         <failure type="FAILED" message="Test Cases/LOGIN/Login with phone number/LOG-14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-14.run(LOG-14:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-04-07 05:13:33 - [TEST_CASE][FAILED] - Test Cases/LOGIN/Login with phone number/LOG-14: Test Cases/LOGIN/Login with phone number/LOG-14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-14.run(LOG-14:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-04-07 05:13:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 05:13:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 05:13:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 05:13:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 05:13:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 05:13:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 05:13:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 05:13:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 05:13:35 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 05:13:35 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:13:37 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:13:39 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Phone_number_button")): Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:13:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/PhoneNumber_inputText"), Valid_number): Text '08999319766' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:13:42 - [MESSAGE][PASSED] - Text '08999319766' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:13:42 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Next_button(enterphone)")): Object: 'Object Repository/Login-Repo/Next_button(enterphone)' is clicked on
+
+2023-04-07 05:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Next_button(enterphone)' is clicked on
+
+2023-04-07 05:13:42 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/OTP_inputText"), "000000"): Text '000000' is set on object 'Object Repository/Login-Repo/OTP_inputText'
+
+2023-04-07 05:13:44 - [MESSAGE][PASSED] - Text '000000' is set on object 'Object Repository/Login-Repo/OTP_inputText'
+
+2023-04-07 05:13:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_send_OTP"), "We sent an SMS with a 6-digit code to +628999319766."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_send_OTP' are matched.
+
+2023-04-07 05:13:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_send_OTP' are matched.
+
+2023-04-07 05:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Next_button(OTP)")): Object: 'Object Repository/Login-Repo/Next_button(OTP)' is clicked on
+
+2023-04-07 05:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Next_button(OTP)' is clicked on
+
+2023-04-07 05:13:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 05:13:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 05:13:46 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home"): Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-14.run(LOG-14:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-04-07 05:14:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='main']/div/div[2]/nav/div/ul/li/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-04-07 05:14:18 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-14.run(LOG-14:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\1680819257940.png]]
+
+2023-04-07 05:14:18 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-14.run(LOG-14:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\1680819258056.png]]
+
+2023-04-07 05:14:20 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-14' .
+
+2023-04-07 05:14:20 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-14' .]]></system-out>
+         <system-err><![CDATA[2023-04-07 05:13:33 - [TEST_CASE][FAILED] - Test Cases/LOGIN/Login with phone number/LOG-14: Test Cases/LOGIN/Login with phone number/LOG-14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-14.run(LOG-14:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with phone number/LOG-15" time="50.605" classname="Test Cases/LOGIN/Login with phone number/LOG-15" status="FAILED">
+         <failure type="FAILED" message="Test Cases/LOGIN/Login with phone number/LOG-15 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-15.run(LOG-15:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-04-07 05:14:20 - [TEST_CASE][FAILED] - Test Cases/LOGIN/Login with phone number/LOG-15: Test Cases/LOGIN/Login with phone number/LOG-15 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-15.run(LOG-15:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-04-07 05:14:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 05:14:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 05:14:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 05:14:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 05:14:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-07 05:14:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 05:14:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 05:14:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 05:14:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 05:14:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 05:14:22 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:14:25 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:14:29 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Phone_number_button")): Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:14:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/PhoneNumber_inputText"), notRegistered_number): Text '087711544294' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:14:32 - [MESSAGE][PASSED] - Text '087711544294' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:14:32 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Next_button(enterphone)")): Object: 'Object Repository/Login-Repo/Next_button(enterphone)' is clicked on
+
+2023-04-07 05:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Next_button(enterphone)' is clicked on
+
+2023-04-07 05:14:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/OTP_inputText"), "000000"): Text '000000' is set on object 'Object Repository/Login-Repo/OTP_inputText'
+
+2023-04-07 05:14:34 - [MESSAGE][PASSED] - Text '000000' is set on object 'Object Repository/Login-Repo/OTP_inputText'
+
+2023-04-07 05:14:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_send_OTP"), "We sent an SMS with a 6-digit code to +6287711544294."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_send_OTP' are matched.
+
+2023-04-07 05:14:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_send_OTP' are matched.
+
+2023-04-07 05:14:35 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Next_button(OTP)")): Object: 'Object Repository/Login-Repo/Next_button(OTP)' is clicked on
+
+2023-04-07 05:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Next_button(OTP)' is clicked on
+
+2023-04-07 05:14:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 05:14:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 05:14:37 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home"): Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-15.run(LOG-15:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-04-07 05:15:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='main']/div/div[2]/nav/div/ul/li/a/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-04-07 05:15:08 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-15.run(LOG-15:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\1680819308628.png]]
+
+2023-04-07 05:15:08 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-15.run(LOG-15:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\1680819308703.png]]
+
+2023-04-07 05:15:10 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-15' .
+
+2023-04-07 05:15:10 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-15' .]]></system-out>
+         <system-err><![CDATA[2023-04-07 05:14:20 - [TEST_CASE][FAILED] - Test Cases/LOGIN/Login with phone number/LOG-15: Test Cases/LOGIN/Login with phone number/LOG-15 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-15.run(LOG-15:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with phone number/LOG-16" time="42.882" classname="Test Cases/LOGIN/Login with phone number/LOG-16" status="FAILED">
+         <failure type="FAILED" message="Test Cases/LOGIN/Login with phone number/LOG-16 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '000000' of object 'Object Repository/Login-Repo/OTP_inputText'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at LOG-16.run(LOG-16:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/OTP_inputText' located by '//input[@id='phonelogin-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-04-07 05:15:10 - [TEST_CASE][FAILED] - Test Cases/LOGIN/Login with phone number/LOG-16: Test Cases/LOGIN/Login with phone number/LOG-16 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '000000' of object 'Object Repository/Login-Repo/OTP_inputText'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at LOG-16.run(LOG-16:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/OTP_inputText' located by '//input[@id='phonelogin-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-04-07 05:15:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 05:15:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 05:15:10 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 05:15:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 05:15:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-07 05:15:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 05:15:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 05:15:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 05:15:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 05:15:13 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 05:15:13 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:15:16 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:15:16 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:15:16 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Phone_number_button")): Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:15:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/PhoneNumber_inputText"), Valid_number): Text '08999319766' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:15:19 - [MESSAGE][PASSED] - Text '08999319766' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:15:19 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Next_button(enterphone)")): Object: 'Object Repository/Login-Repo/Next_button(enterphone)' is clicked on
+
+2023-04-07 05:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Next_button(enterphone)' is clicked on
+
+2023-04-07 05:15:20 - [TEST_STEP][FAILED] - setText(findTestObject("Login-Repo/OTP_inputText"), "000000"): Unable to set text '000000' of object 'Object Repository/Login-Repo/OTP_inputText' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '000000' of object 'Object Repository/Login-Repo/OTP_inputText'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at LOG-16.run(LOG-16:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/OTP_inputText' located by '//input[@id='phonelogin-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1680807474329.run(Script1680807474329.groovy:34)
+	... 13 more
+)
+
+2023-04-07 05:15:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='phonelogin-code']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-04-07 05:15:51 - [MESSAGE][FAILED] - Unable to set text '000000' of object 'Object Repository/Login-Repo/OTP_inputText' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '000000' of object 'Object Repository/Login-Repo/OTP_inputText'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at LOG-16.run(LOG-16:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/OTP_inputText' located by '//input[@id='phonelogin-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1680807474329.run(Script1680807474329.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_051331\\Login with phone number\\20230407_051331\\1680819351555.png]]
+
+2023-04-07 05:15:53 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-16' .
+
+2023-04-07 05:15:53 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-16' .]]></system-out>
+         <system-err><![CDATA[2023-04-07 05:15:10 - [TEST_CASE][FAILED] - Test Cases/LOGIN/Login with phone number/LOG-16: Test Cases/LOGIN/Login with phone number/LOG-16 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '000000' of object 'Object Repository/Login-Repo/OTP_inputText'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at LOG-16.run(LOG-16:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/OTP_inputText' located by '//input[@id='phonelogin-code']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with phone number/LOG-17" time="12.824" classname="Test Cases/LOGIN/Login with phone number/LOG-17" status="PASSED">
+         <system-out><![CDATA[2023-04-07 05:15:53 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with phone number/LOG-17: Test Cases/LOGIN/Login with phone number/LOG-17
+
+2023-04-07 05:15:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 05:15:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 05:15:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 05:15:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 05:15:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-07 05:15:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 05:15:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 05:15:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 05:15:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 05:15:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 05:15:55 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:15:59 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:16:00 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Phone_number_button")): Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:16:02 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/PhoneNumber_inputText"), "abc"): Text 'abc' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:03 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_onlyNumbers"), "You can only enter numbers."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_onlyNumbers' are matched.
+
+2023-04-07 05:16:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_onlyNumbers' are matched.
+
+2023-04-07 05:16:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 05:16:04 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 05:16:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-17' .
+
+2023-04-07 05:16:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-17' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with phone number/LOG-18" time="11.419" classname="Test Cases/LOGIN/Login with phone number/LOG-18" status="PASSED">
+         <system-out><![CDATA[2023-04-07 05:16:06 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with phone number/LOG-18: Test Cases/LOGIN/Login with phone number/LOG-18
+
+2023-04-07 05:16:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 05:16:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 05:16:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 05:16:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 05:16:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 05:16:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 05:16:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 05:16:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 05:16:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 05:16:08 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:16:09 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Phone_number_button")): Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:16:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/PhoneNumber_inputText"), LessThan12_number): Text '0813123456' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:13 - [MESSAGE][PASSED] - Text '0813123456' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:13 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Next_button(enterphone)")): Object: 'Object Repository/Login-Repo/Next_button(enterphone)' is clicked on
+
+2023-04-07 05:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Next_button(enterphone)' is clicked on
+
+2023-04-07 05:16:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_invalid_PhoneNumber"), "Check your phone number."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_invalid_PhoneNumber' are matched.
+
+2023-04-07 05:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_invalid_PhoneNumber' are matched.
+
+2023-04-07 05:16:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 05:16:15 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 05:16:17 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-18' .
+
+2023-04-07 05:16:17 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-18' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with phone number/LOG-19" time="12.165" classname="Test Cases/LOGIN/Login with phone number/LOG-19" status="PASSED">
+         <system-out><![CDATA[2023-04-07 05:16:17 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with phone number/LOG-19: Test Cases/LOGIN/Login with phone number/LOG-19
+
+2023-04-07 05:16:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 05:16:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 05:16:18 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 05:16:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 05:16:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 05:16:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 05:16:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 05:16:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 05:16:19 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 05:16:19 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:16:22 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:16:22 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Phone_number_button")): Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:16:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/PhoneNumber_inputText"), MoreThan12_number): Text '0813123456789' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:26 - [MESSAGE][PASSED] - Text '0813123456789' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Next_button(enterphone)")): Object: 'Object Repository/Login-Repo/Next_button(enterphone)' is clicked on
+
+2023-04-07 05:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Next_button(enterphone)' is clicked on
+
+2023-04-07 05:16:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_invalid_PhoneNumber"), "Check your phone number."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_invalid_PhoneNumber' are matched.
+
+2023-04-07 05:16:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_invalid_PhoneNumber' are matched.
+
+2023-04-07 05:16:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 05:16:28 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 05:16:30 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-19' .
+
+2023-04-07 05:16:30 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-19' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with phone number/LOG-20" time="12.674" classname="Test Cases/LOGIN/Login with phone number/LOG-20" status="PASSED">
+         <system-out><![CDATA[2023-04-07 05:16:30 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with phone number/LOG-20: Test Cases/LOGIN/Login with phone number/LOG-20
+
+2023-04-07 05:16:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 05:16:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 05:16:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 05:16:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 05:16:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 05:16:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 05:16:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 05:16:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 05:16:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 05:16:31 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:16:35 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:16:35 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:16:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:16:37 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Phone_number_button")): Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:16:38 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/PhoneNumber_inputText"), "!@#"): Text '!@#' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:39 - [MESSAGE][PASSED] - Text '!@#' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_onlyNumbers"), "You can only enter numbers."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_onlyNumbers' are matched.
+
+2023-04-07 05:16:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_onlyNumbers' are matched.
+
+2023-04-07 05:16:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 05:16:40 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 05:16:42 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-20' .
+
+2023-04-07 05:16:42 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-20' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with phone number/LOG-21" time="12.218" classname="Test Cases/LOGIN/Login with phone number/LOG-21" status="PASSED">
+         <system-out><![CDATA[2023-04-07 05:16:42 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with phone number/LOG-21: Test Cases/LOGIN/Login with phone number/LOG-21
+
+2023-04-07 05:16:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 05:16:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 05:16:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 05:16:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 05:16:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 05:16:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 05:16:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 05:16:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 05:16:44 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 05:16:44 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:16:47 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 05:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 05:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Phone_number_button")): Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Phone_number_button' is clicked on
+
+2023-04-07 05:16:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/PhoneNumber_inputText"), LessThan12_number): Text '0813123456' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:51 - [MESSAGE][PASSED] - Text '0813123456' is set on object 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login-Repo/PhoneNumber_inputText"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:51 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login-Repo/PhoneNumber_inputText"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:51 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login-Repo/PhoneNumber_inputText'
+
+2023-04-07 05:16:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_enter_PhoneNumber"), "Please enter your phone number"): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_enter_PhoneNumber' are matched.
+
+2023-04-07 05:16:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_enter_PhoneNumber' are matched.
+
+2023-04-07 05:16:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 05:16:52 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 05:16:55 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-21' .
+
+2023-04-07 05:16:55 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with phone number/LOG-21' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-07 05:13:33 - [TEST_SUITE][FAILED] - Login with phone number: Test Cases/LOGIN/Login with phone number/LOG-14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-14.run(LOG-14:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-04-07 05:13:33 - [TEST_SUITE][FAILED] - Login with phone number: Test Cases/LOGIN/Login with phone number/LOG-14 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4749)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at LOG-14.run(LOG-14:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1680819211143.run(TempTestSuite1680819211143.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' located by '//div[@id='main']/div/div[2]/nav/div/ul/li/a/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

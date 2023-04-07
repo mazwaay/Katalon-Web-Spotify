@@ -1,0 +1,112 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login with phone number,Chrome 112.0.0.0,,,2023-04-07 05:13:33,2023-04-07 05:16:55,3m - 21.778s,FAILED
+,,,,,,,
+Test Cases/LOGIN/Login with phone number/LOG-14,Chrome 112.0.0.0,Login dengan phone number terdaftar.,,2023-04-07 05:13:33,2023-04-07 05:14:20,46.810s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:13:33,2023-04-07 05:13:33,0.015s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:13:33,2023-04-07 05:13:35,2.093s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:13:35,2023-04-07 05:13:35,0.150s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:13:35,2023-04-07 05:13:37,1.735s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:13:37,2023-04-07 05:13:39,1.392s,PASSED
+"click(findTestObject(""Login-Repo/Phone_number_button""))",Chrome 112.0.0.0,,,2023-04-07 05:13:39,2023-04-07 05:13:41,2.036s,PASSED
+"setText(findTestObject(""Login-Repo/PhoneNumber_inputText""), Valid_number)",Chrome 112.0.0.0,,,2023-04-07 05:13:41,2023-04-07 05:13:42,1.053s,PASSED
+"click(findTestObject(""Login-Repo/Next_button(enterphone)""))",Chrome 112.0.0.0,,,2023-04-07 05:13:42,2023-04-07 05:13:42,0.499s,PASSED
+"setText(findTestObject(""Login-Repo/OTP_inputText""), ""000000"")",Chrome 112.0.0.0,,,2023-04-07 05:13:42,2023-04-07 05:13:44,1.334s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_send_OTP""), ""We sent an SMS with a 6-digit code to +628999319766."")",Chrome 112.0.0.0,,,2023-04-07 05:13:44,2023-04-07 05:13:44,0.456s,PASSED
+"click(findTestObject(""Login-Repo/Next_button(OTP)""))",Chrome 112.0.0.0,,,2023-04-07 05:13:44,2023-04-07 05:13:44,0.361s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 05:13:44,2023-04-07 05:13:46,2.030s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_Home""), ""Home"")",Chrome 112.0.0.0,,,2023-04-07 05:13:46,2023-04-07 05:14:18,31.257s,FAILED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:14:20,2023-04-07 05:14:20,0.001s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with phone number/LOG-15,Chrome 112.0.0.0,Login dengan phone number tidak terdaftar.,,2023-04-07 05:14:20,2023-04-07 05:15:10,50.605s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:14:20,2023-04-07 05:14:20,0.003s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:14:20,2023-04-07 05:14:22,1.840s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:14:22,2023-04-07 05:14:22,0.141s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:14:22,2023-04-07 05:14:25,3.314s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:14:25,2023-04-07 05:14:29,4.092s,PASSED
+"click(findTestObject(""Login-Repo/Phone_number_button""))",Chrome 112.0.0.0,,,2023-04-07 05:14:29,2023-04-07 05:14:31,2.036s,PASSED
+"setText(findTestObject(""Login-Repo/PhoneNumber_inputText""), notRegistered_number)",Chrome 112.0.0.0,,,2023-04-07 05:14:31,2023-04-07 05:14:32,0.922s,PASSED
+"click(findTestObject(""Login-Repo/Next_button(enterphone)""))",Chrome 112.0.0.0,,,2023-04-07 05:14:32,2023-04-07 05:14:33,0.470s,PASSED
+"setText(findTestObject(""Login-Repo/OTP_inputText""), ""000000"")",Chrome 112.0.0.0,,,2023-04-07 05:14:33,2023-04-07 05:14:34,1.330s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_send_OTP""), ""We sent an SMS with a 6-digit code to +6287711544294."")",Chrome 112.0.0.0,,,2023-04-07 05:14:34,2023-04-07 05:14:35,0.429s,PASSED
+"click(findTestObject(""Login-Repo/Next_button(OTP)""))",Chrome 112.0.0.0,,,2023-04-07 05:14:35,2023-04-07 05:14:35,0.351s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 05:14:35,2023-04-07 05:14:37,2.004s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_Home""), ""Home"")",Chrome 112.0.0.0,,,2023-04-07 05:14:37,2023-04-07 05:15:08,31.321s,FAILED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:15:10,2023-04-07 05:15:10,0.001s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with phone number/LOG-16,Chrome 112.0.0.0,Login dengan phone number terdaftar dan memasukkan kode OTP salah,,2023-04-07 05:15:10,2023-04-07 05:15:53,42.882s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:15:10,2023-04-07 05:15:10,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:15:11,2023-04-07 05:15:12,1.785s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:15:12,2023-04-07 05:15:13,0.145s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:15:13,2023-04-07 05:15:16,3.216s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:15:16,2023-04-07 05:15:16,0.579s,PASSED
+"click(findTestObject(""Login-Repo/Phone_number_button""))",Chrome 112.0.0.0,,,2023-04-07 05:15:16,2023-04-07 05:15:18,2.110s,PASSED
+"setText(findTestObject(""Login-Repo/PhoneNumber_inputText""), Valid_number)",Chrome 112.0.0.0,,,2023-04-07 05:15:18,2023-04-07 05:15:19,0.898s,PASSED
+"click(findTestObject(""Login-Repo/Next_button(enterphone)""))",Chrome 112.0.0.0,,,2023-04-07 05:15:19,2023-04-07 05:15:20,0.437s,PASSED
+"setText(findTestObject(""Login-Repo/OTP_inputText""), ""000000"")",Chrome 112.0.0.0,,,2023-04-07 05:15:20,2023-04-07 05:15:51,31.342s,FAILED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:15:53,2023-04-07 05:15:53,0.001s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with phone number/LOG-17,Chrome 112.0.0.0,Login menggunakan huruf/alphabet.,,2023-04-07 05:15:53,2023-04-07 05:16:06,12.824s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:15:53,2023-04-07 05:15:53,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:15:53,2023-04-07 05:15:55,1.775s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:15:55,2023-04-07 05:15:55,0.142s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:15:55,2023-04-07 05:15:59,3.278s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:15:59,2023-04-07 05:16:00,1.256s,PASSED
+"click(findTestObject(""Login-Repo/Phone_number_button""))",Chrome 112.0.0.0,,,2023-04-07 05:16:00,2023-04-07 05:16:02,1.919s,PASSED
+"setText(findTestObject(""Login-Repo/PhoneNumber_inputText""), ""abc"")",Chrome 112.0.0.0,,,2023-04-07 05:16:02,2023-04-07 05:16:03,1.028s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_onlyNumbers""), ""You can only enter numbers."")",Chrome 112.0.0.0,,,2023-04-07 05:16:03,2023-04-07 05:16:03,0.443s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 05:16:03,2023-04-07 05:16:04,0.684s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:16:06,2023-04-07 05:16:06,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with phone number/LOG-18,Chrome 112.0.0.0,"""Login phone number kurang dari
+12 digit""",,2023-04-07 05:16:06,2023-04-07 05:16:17,11.419s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:16:06,2023-04-07 05:16:06,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:16:06,2023-04-07 05:16:07,1.098s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:16:07,2023-04-07 05:16:08,0.145s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:16:08,2023-04-07 05:16:09,1.381s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:16:09,2023-04-07 05:16:11,1.794s,PASSED
+"click(findTestObject(""Login-Repo/Phone_number_button""))",Chrome 112.0.0.0,,,2023-04-07 05:16:11,2023-04-07 05:16:13,1.773s,PASSED
+"setText(findTestObject(""Login-Repo/PhoneNumber_inputText""), LessThan12_number)",Chrome 112.0.0.0,,,2023-04-07 05:16:13,2023-04-07 05:16:13,0.974s,PASSED
+"click(findTestObject(""Login-Repo/Next_button(enterphone)""))",Chrome 112.0.0.0,,,2023-04-07 05:16:13,2023-04-07 05:16:14,0.469s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_invalid_PhoneNumber""), ""Check your phone number."")",Chrome 112.0.0.0,,,2023-04-07 05:16:14,2023-04-07 05:16:15,0.846s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 05:16:15,2023-04-07 05:16:15,0.674s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:16:17,2023-04-07 05:16:17,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with phone number/LOG-19,Chrome 112.0.0.0,"""Login phone number lebih dari
+12 digit""",,2023-04-07 05:16:17,2023-04-07 05:16:30,12.165s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:16:18,2023-04-07 05:16:18,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:16:18,2023-04-07 05:16:19,1.081s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:16:19,2023-04-07 05:16:19,0.142s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:16:19,2023-04-07 05:16:22,3.133s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:16:22,2023-04-07 05:16:23,0.573s,PASSED
+"click(findTestObject(""Login-Repo/Phone_number_button""))",Chrome 112.0.0.0,,,2023-04-07 05:16:23,2023-04-07 05:16:25,2.000s,PASSED
+"setText(findTestObject(""Login-Repo/PhoneNumber_inputText""), MoreThan12_number)",Chrome 112.0.0.0,,,2023-04-07 05:16:25,2023-04-07 05:16:26,1.023s,PASSED
+"click(findTestObject(""Login-Repo/Next_button(enterphone)""))",Chrome 112.0.0.0,,,2023-04-07 05:16:26,2023-04-07 05:16:26,0.461s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_invalid_PhoneNumber""), ""Check your phone number."")",Chrome 112.0.0.0,,,2023-04-07 05:16:26,2023-04-07 05:16:27,0.866s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 05:16:27,2023-04-07 05:16:28,0.679s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:16:30,2023-04-07 05:16:30,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with phone number/LOG-20,Chrome 112.0.0.0,Login menggunakan simbol.,,2023-04-07 05:16:30,2023-04-07 05:16:42,12.674s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:16:30,2023-04-07 05:16:30,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:16:30,2023-04-07 05:16:31,1.082s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:16:31,2023-04-07 05:16:31,0.161s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:16:31,2023-04-07 05:16:35,3.481s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:16:35,2023-04-07 05:16:37,2.006s,PASSED
+"click(findTestObject(""Login-Repo/Phone_number_button""))",Chrome 112.0.0.0,,,2023-04-07 05:16:37,2023-04-07 05:16:38,1.442s,PASSED
+"setText(findTestObject(""Login-Repo/PhoneNumber_inputText""), ""!@#"")",Chrome 112.0.0.0,,,2023-04-07 05:16:38,2023-04-07 05:16:39,1.012s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_onlyNumbers""), ""You can only enter numbers."")",Chrome 112.0.0.0,,,2023-04-07 05:16:39,2023-04-07 05:16:40,0.532s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 05:16:40,2023-04-07 05:16:40,0.669s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:16:42,2023-04-07 05:16:42,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with phone number/LOG-21,Chrome 112.0.0.0,Input phone number yang terdaftar kemudian hapus akan muncul notif error,,2023-04-07 05:16:42,2023-04-07 05:16:55,12.218s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:16:42,2023-04-07 05:16:42,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:16:43,2023-04-07 05:16:44,1.077s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:16:44,2023-04-07 05:16:44,0.158s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:16:44,2023-04-07 05:16:47,3.142s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:16:47,2023-04-07 05:16:47,0.570s,PASSED
+"click(findTestObject(""Login-Repo/Phone_number_button""))",Chrome 112.0.0.0,,,2023-04-07 05:16:47,2023-04-07 05:16:50,2.053s,PASSED
+"setText(findTestObject(""Login-Repo/PhoneNumber_inputText""), LessThan12_number)",Chrome 112.0.0.0,,,2023-04-07 05:16:50,2023-04-07 05:16:51,1.007s,PASSED
+"sendKeys(findTestObject(""Login-Repo/PhoneNumber_inputText""), Keys.chord(CONTROL, ""a""))",Chrome 112.0.0.0,,,2023-04-07 05:16:51,2023-04-07 05:16:51,0.468s,PASSED
+"sendKeys(findTestObject(""Login-Repo/PhoneNumber_inputText""), Keys.chord(BACK_SPACE))",Chrome 112.0.0.0,,,2023-04-07 05:16:51,2023-04-07 05:16:51,0.351s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_enter_PhoneNumber""), ""Please enter your phone number"")",Chrome 112.0.0.0,,,2023-04-07 05:16:51,2023-04-07 05:16:52,0.446s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 05:16:52,2023-04-07 05:16:52,0.692s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:16:55,2023-04-07 05:16:55,0.000s,PASSED

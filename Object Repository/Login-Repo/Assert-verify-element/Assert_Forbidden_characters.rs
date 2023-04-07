@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Assert_Forbidden_characters</name>
+   <tag></tag>
+   <elementGuidId>e798ce20-61ec-4837-bd6c-1ac3b71d0630</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='username-error']/span/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.Type__TypeElement-sc-goli3j-0.gkqrGP.sc-eDWCr.hDJnrz</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>2416a3f3-48ab-4e90-bd44-3df19da6a83e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Type__TypeElement-sc-goli3j-0 gkqrGP sc-eDWCr hDJnrz</value>
+      <webElementGuid>05b735b0-ce12-4d60-acb7-3bfa0efb8193</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-encore-id</name>
+      <type>Main</type>
+      <value>type</value>
+      <webElementGuid>09d5595b-af4a-40da-86c0-73e61feb8d76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Forbidden character(s) ` in username.</value>
+      <webElementGuid>d343d85d-f16f-4ff4-bc47-66a1ba60cbff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;username-error&quot;)/span[@class=&quot;Text-sc-g5kv67-0 jYLjty&quot;]/p[@class=&quot;Type__TypeElement-sc-goli3j-0 gkqrGP sc-eDWCr hDJnrz&quot;]</value>
+      <webElementGuid>8b6c53fe-52d1-49d6-961a-32b23ff6db02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='username-error']/span/p</value>
+      <webElementGuid>23680b1d-dbcc-43ed-a9b8-be2823f306b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address or username'])[1]/following::p[1]</value>
+      <webElementGuid>fd358232-4b45-4810-bed4-19b4af25b9c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[1]/following::p[1]</value>
+      <webElementGuid>d587b43f-95e8-492d-a1cd-b5e4774e363a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::p[1]</value>
+      <webElementGuid>39a64a59-4ab7-4fbb-80e4-96f1e468d7d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Forbidden character(s)']/parent::*</value>
+      <webElementGuid>03d56a5a-94f5-4355-b3c0-c4f9ed3bfda7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>9c5a7f7d-3405-40b8-8dac-c23a8b3aa16c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Forbidden character(s) ` in username.' or . = 'Forbidden character(s) ` in username.')]</value>
+      <webElementGuid>f9444283-43f0-461f-83eb-5b679abe073c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

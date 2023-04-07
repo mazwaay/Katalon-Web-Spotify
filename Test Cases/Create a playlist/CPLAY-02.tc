@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>mengganti nama playlist kurang 
+dari 100 karakter</description>
+   <name>CPLAY-02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3ad3878-450d-45d1-a20e-7bc481ae417a</testCaseGuid>
+</TestCaseEntity>

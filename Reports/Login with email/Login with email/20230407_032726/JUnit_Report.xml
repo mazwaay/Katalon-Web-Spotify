@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login with email" time="180.063" tests="11" failures="0" errors="0">
+   <testsuite name="Login with email" tests="11" failures="0" errors="0" time="180.063" skipped="0" timestamp="2023-04-07 03:27:28" hostname="wahyu - Mazway.lan" id="Test Suites/Login with email">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_032726\\Login with email\\20230407_032726"/>
+         <property name="logFiles" value="C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_032726\\Login with email\\20230407_032726\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="wahyu - Mazway.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="192.168.113.120"/>
+         <property name="sessionId" value="cb2f653f02d20353690c1fd68dc01b93"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-01" time="20.234" classname="Test Cases/LOGIN/Login with email/LOG-01" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:27:28 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-01: Test Cases/LOGIN/Login with email/LOG-01
+
+2023-04-07 03:27:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:27:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:27:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:27:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:27:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:27:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:27:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:27:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:27:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:27:31 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:27:35 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:27:35 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:27:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Valid_email): Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:27:40 - [MESSAGE][PASSED] - Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:27:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:27:41 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:27:41 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:27:41 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:27:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-07 03:27:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-07 03:27:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 03:27:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 03:27:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:27:46 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:27:48 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-01' .
+
+2023-04-07 03:27:48 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-01' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-02" time="12.729" classname="Test Cases/LOGIN/Login with email/LOG-02" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:27:48 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-02: Test Cases/LOGIN/Login with email/LOG-02
+
+2023-04-07 03:27:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:27:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:27:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:27:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:27:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:27:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:27:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:27:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:27:50 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:27:50 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:27:52 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:27:52 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:27:53 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:27:56 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:27:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:27:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 03:27:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 03:27:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password"), "Incorrect username or password."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:27:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:27:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:27:59 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:28:01 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-02' .
+
+2023-04-07 03:28:01 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-02' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-03" time="14.976" classname="Test Cases/LOGIN/Login with email/LOG-03" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:28:01 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-03: Test Cases/LOGIN/Login with email/LOG-03
+
+2023-04-07 03:28:01 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:28:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:28:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:28:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:28:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:28:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:28:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:28:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:28:02 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:28:02 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:28:07 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:28:07 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:28:08 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Valid_email): Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:28:10 - [MESSAGE][PASSED] - Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:28:10 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:28:11 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:28:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 03:28:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 03:28:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password"), "Incorrect username or password."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:28:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:28:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:28:14 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:28:16 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-03' .
+
+2023-04-07 03:28:16 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-03' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-04" time="15.521" classname="Test Cases/LOGIN/Login with email/LOG-04" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:28:16 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-04: Test Cases/LOGIN/Login with email/LOG-04
+
+2023-04-07 03:28:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:28:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:28:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:28:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:28:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:28:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:28:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:28:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:28:17 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:28:17 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:28:20 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:28:20 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:28:23 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:28:26 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:28:26 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:28:26 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:28:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 03:28:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 03:28:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password"), "Incorrect username or password."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:28:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:28:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:28:29 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:28:31 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-04' .
+
+2023-04-07 03:28:31 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-04' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-05" time="14.852" classname="Test Cases/LOGIN/Login with email/LOG-05" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:28:31 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-05: Test Cases/LOGIN/Login with email/LOG-05
+
+2023-04-07 03:28:31 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:28:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:28:31 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:28:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:28:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:28:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:28:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:28:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:28:33 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:28:33 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:28:35 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:28:35 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:28:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Valid_email): Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:28:40 - [MESSAGE][PASSED] - Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:28:40 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Invalid_password): Text 'Akunmu80!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:28:41 - [MESSAGE][PASSED] - Text 'Akunmu80!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:28:41 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:28:41 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:28:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 03:28:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 03:28:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password"), "Incorrect username or password."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:28:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:28:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:28:44 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:28:46 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-05' .
+
+2023-04-07 03:28:46 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-05' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-06" time="18.997" classname="Test Cases/LOGIN/Login with email/LOG-06" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:28:46 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-06: Test Cases/LOGIN/Login with email/LOG-06
+
+2023-04-07 03:28:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:28:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:28:46 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:28:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:28:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:28:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:28:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:28:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:28:48 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:28:48 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:28:50 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:28:50 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:28:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:28:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Invalid_email): Text 'akunmu404@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:28:59 - [MESSAGE][PASSED] - Text 'akunmu404@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:28:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:29:00 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:29:00 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:29:00 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:29:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:29:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 03:29:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 03:29:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password"), "Incorrect username or password."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:29:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:29:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:29:03 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:29:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-06' .
+
+2023-04-07 03:29:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-06' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-07" time="19.21" classname="Test Cases/LOGIN/Login with email/LOG-07" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:29:05 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-07: Test Cases/LOGIN/Login with email/LOG-07
+
+2023-04-07 03:29:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:29:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:29:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:29:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:29:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:29:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:29:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:29:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:29:07 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:29:07 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:29:09 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:29:09 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:29:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:29:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), validate_email_1): Text 'testing.brinsgmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:29:18 - [MESSAGE][PASSED] - Text 'testing.brinsgmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:29:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:29:19 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:29:19 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:29:19 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:29:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 03:29:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 03:29:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password"), "Incorrect username or password."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:29:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:29:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:29:22 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:29:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-07' .
+
+2023-04-07 03:29:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-07' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-08" time="15.441" classname="Test Cases/LOGIN/Login with email/LOG-08" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:29:24 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-08: Test Cases/LOGIN/Login with email/LOG-08
+
+2023-04-07 03:29:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:29:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:29:24 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:29:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:29:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:29:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:29:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:29:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:29:26 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:29:26 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:29:28 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:29:28 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:29:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:29:31 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), validate_email_2): Text 'testing.brins@gmailcom' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:29:34 - [MESSAGE][PASSED] - Text 'testing.brins@gmailcom' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:29:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:29:34 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:29:34 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:29:35 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:29:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 03:29:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 03:29:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password"), "Incorrect username or password."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:29:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:29:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:29:38 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:29:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-08' .
+
+2023-04-07 03:29:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-08' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-09" time="17.982" classname="Test Cases/LOGIN/Login with email/LOG-09" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:29:40 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-09: Test Cases/LOGIN/Login with email/LOG-09
+
+2023-04-07 03:29:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:29:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:29:40 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:29:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:29:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:29:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:29:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:29:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:29:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:29:41 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:29:44 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:29:44 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:29:49 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Invalid_email): Text 'akunmu404@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:29:52 - [MESSAGE][PASSED] - Text 'akunmu404@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:29:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Invalid_password): Text 'Akunmu80!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:29:52 - [MESSAGE][PASSED] - Text 'Akunmu80!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:29:52 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 03:29:52 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 03:29:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 03:29:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 03:29:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password"), "Incorrect username or password."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:29:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password' are matched.
+
+2023-04-07 03:29:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:29:56 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:29:58 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-09' .
+
+2023-04-07 03:29:58 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-09' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-10" time="14.838" classname="Test Cases/LOGIN/Login with email/LOG-10" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:29:58 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-10: Test Cases/LOGIN/Login with email/LOG-10
+
+2023-04-07 03:29:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:29:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:29:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:29:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:29:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:29:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:29:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:29:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:29:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:29:59 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:30:02 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:30:04 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Valid_email): Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:30:07 - [MESSAGE][PASSED] - Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:30:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login-Repo/Email_inputText"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:30:07 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:30:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login-Repo/Email_inputText"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:30:08 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 03:30:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 03:30:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 03:30:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_username_error"), "Please enter your Spotify username or email address."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_username_error' are matched.
+
+2023-04-07 03:30:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_username_error' are matched.
+
+2023-04-07 03:30:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:30:11 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:30:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-10' .
+
+2023-04-07 03:30:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-10' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LOGIN/Login with email/LOG-11" time="15.113" classname="Test Cases/LOGIN/Login with email/LOG-11" status="PASSED">
+         <system-out><![CDATA[2023-04-07 03:30:13 - [TEST_CASE][PASSED] - Test Cases/LOGIN/Login with email/LOG-11: Test Cases/LOGIN/Login with email/LOG-11
+
+2023-04-07 03:30:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 03:30:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 03:30:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 03:30:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 03:30:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 03:30:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 03:30:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 03:30:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 03:30:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 03:30:14 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:30:16 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 03:30:16 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 03:30:19 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:30:22 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:30:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login-Repo/Password_inputText"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:30:23 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:30:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login-Repo/Password_inputText"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:30:23 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 03:30:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-04-07 03:30:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-04-07 03:30:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_password_error"), "Please enter your password."): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_password_error' are matched.
+
+2023-04-07 03:30:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_password_error' are matched.
+
+2023-04-07 03:30:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 03:30:26 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 03:30:28 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-11' .
+
+2023-04-07 03:30:28 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/LOGIN/Login with email/LOG-11' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-07 03:27:28 - [TEST_SUITE][PASSED] - Login with email: Test Cases/LOGIN/Login with email/LOG-11]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

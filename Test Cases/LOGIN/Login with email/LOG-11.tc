@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Input email atau username kemudian
+hapus akan muncul notif error&quot;</description>
+   <name>LOG-11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>413fb7c2-bcad-48df-a1a7-84b6b72c8427</testCaseGuid>
+</TestCaseEntity>

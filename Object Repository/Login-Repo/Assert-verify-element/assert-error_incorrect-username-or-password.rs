@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>assert-error_incorrect-username-or-password</name>
+   <tag></tag>
+   <elementGuidId>f3071eb7-7bf1-427c-88f6-5a42c226cc77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.Message-sc-15vkh7g-0.dHbxKh</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>768fe6a4-7c5e-4a83-b999-bdb937ea4ac4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Message-sc-15vkh7g-0 dHbxKh</value>
+      <webElementGuid>78207cbe-eede-448a-9a5b-7bc027a839a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Incorrect username or password.</value>
+      <webElementGuid>02d4e7e8-5192-4d75-9f66-1a3867dcfbfc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-bCfvAP cIiHZY&quot;]/div[@class=&quot;sc-khsqcC kLHzHb&quot;]/div[@class=&quot;sc-hTBuwn dPHlwQ&quot;]/div[@class=&quot;sc-gswNZR wKwWn&quot;]/div[@class=&quot;Wrapper-sc-62m9tu-0 dkCVSE encore-negative-set sc-iveFHk QECxu&quot;]/span[@class=&quot;Message-sc-15vkh7g-0 dHbxKh&quot;]</value>
+      <webElementGuid>e8eefd7a-5e86-49ab-9d3e-d90a6628d941</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/span</value>
+      <webElementGuid>b720153d-d524-4a13-bbe8-7ad2a4bb9752</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::span[1]</value>
+      <webElementGuid>86c426ef-c9ca-4d5f-a17f-ad4007e737ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue with Facebook'])[1]/preceding::span[1]</value>
+      <webElementGuid>6495936b-007e-407f-b21e-a7e45ce561f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue with Apple'])[1]/preceding::span[2]</value>
+      <webElementGuid>0d4dc6e1-5f46-4b6f-8b09-ed2e2707b87d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Incorrect username or password.']/parent::*</value>
+      <webElementGuid>7b3a3236-1648-40cd-b6ec-48271aeb6bae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>2b8bcb58-8090-4a87-9ceb-aa2e10210b95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Incorrect username or password.' or . = 'Incorrect username or password.')]</value>
+      <webElementGuid>11656a28-b7a9-4b9e-8460-9ee5259073bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

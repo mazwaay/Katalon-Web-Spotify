@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create a playlist" time="135.225" tests="6" failures="0" errors="0">
+   <testsuite name="Create a playlist" tests="6" failures="0" errors="0" time="135.225" skipped="0" timestamp="2023-04-07 07:18:42" hostname="wahyu - 192.168.195.106" id="Test Suites/Create a playlist">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_071840\\Create a playlist\\20230407_071840"/>
+         <property name="logFiles" value="C:\\Users\\wahyu\\Desktop\\Automate\\Katalon Studio\\Sample Project\\Website\\Katalon-Web-Spotify\\Reports\\20230407_071840\\Create a playlist\\20230407_071840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="wahyu - 192.168.195.106"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="192.168.195.106"/>
+         <property name="sessionId" value="4ad457ce97586ae575ec394d3df1312f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Create a playlist/CPLAY-01" time="23.277" classname="Test Cases/Create a playlist/CPLAY-01" status="PASSED">
+         <system-out><![CDATA[2023-04-07 07:18:42 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/CPLAY-01: Test Cases/Create a playlist/CPLAY-01
+
+2023-04-07 07:18:42 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 07:18:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 07:18:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 07:18:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Create a playlist/LOGIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:18:42 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/LOGIN: Test Cases/Create a playlist/LOGIN
+
+2023-04-07 07:18:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 07:18:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 07:18:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 07:18:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 07:18:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 07:18:45 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 07:18:45 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:18:49 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:18:49 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:18:52 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Valid_email): Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:18:54 - [MESSAGE][PASSED] - Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:18:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:18:54 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:18:54 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:18:55 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:18:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-07 07:18:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-07 07:18:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:18:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:18:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:18:59 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/CreatePlaylist_button")): Object: 'Object Repository/Create a playlist-Repo/CreatePlaylist_button' is clicked on
+
+2023-04-07 07:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/CreatePlaylist_button' is clicked on
+
+2023-04-07 07:19:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create a playlist-Repo/Assert_Playlist"), "Playlist"): Actual text and expected text of test object 'Object Repository/Create a playlist-Repo/Assert_Playlist' are matched.
+
+2023-04-07 07:19:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create a playlist-Repo/Assert_Playlist' are matched.
+
+2023-04-07 07:19:03 - [TEST_STEP][PASSED] - getText(findTestObject("Create a playlist-Repo/getText_MyPlaylist")): Text of object 'Object Repository/Create a playlist-Repo/getText_MyPlaylist' is: 'My Playlist #100'
+
+2023-04-07 07:19:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Create a playlist-Repo/getText_MyPlaylist' is: 'My Playlist #100'
+
+2023-04-07 07:19:05 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Create a playlist/CPLAY-01' .
+
+2023-04-07 07:19:05 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Create a playlist/CPLAY-01' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create a playlist/CPLAY-02" time="24.638" classname="Test Cases/Create a playlist/CPLAY-02" status="PASSED">
+         <system-out><![CDATA[2023-04-07 07:19:05 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/CPLAY-02: Test Cases/Create a playlist/CPLAY-02
+
+2023-04-07 07:19:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 07:19:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 07:19:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 07:19:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Create a playlist/LOGIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:19:06 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/LOGIN: Test Cases/Create a playlist/LOGIN
+
+2023-04-07 07:19:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 07:19:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-07 07:19:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 07:19:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 07:19:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 07:19:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 07:19:08 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 07:19:08 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:19:09 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:19:09 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:19:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Valid_email): Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:19:15 - [MESSAGE][PASSED] - Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:19:15 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:19:15 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:19:16 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:19:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-07 07:19:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-07 07:19:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:19:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:19:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:19:20 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/YourLibrary_button")): Object: 'Object Repository/Create a playlist-Repo/YourLibrary_button' is clicked on
+
+2023-04-07 07:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/YourLibrary_button' is clicked on
+
+2023-04-07 07:19:23 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/New_Playlist")): Object: 'Object Repository/Create a playlist-Repo/New_Playlist' is clicked on
+
+2023-04-07 07:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/New_Playlist' is clicked on
+
+2023-04-07 07:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/MyPlaylist_name")): Object: 'Object Repository/Create a playlist-Repo/MyPlaylist_name' is clicked on
+
+2023-04-07 07:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/MyPlaylist_name' is clicked on
+
+2023-04-07 07:19:26 - [TEST_STEP][PASSED] - setText(findTestObject("Create a playlist-Repo/namePlaylist_inputText"), "My Awesome Playlist"): Text 'My Awesome Playlist' is set on object 'Object Repository/Create a playlist-Repo/namePlaylist_inputText'
+
+2023-04-07 07:19:27 - [MESSAGE][PASSED] - Text 'My Awesome Playlist' is set on object 'Object Repository/Create a playlist-Repo/namePlaylist_inputText'
+
+2023-04-07 07:19:27 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/Save_button")): Object: 'Object Repository/Create a playlist-Repo/Save_button' is clicked on
+
+2023-04-07 07:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/Save_button' is clicked on
+
+2023-04-07 07:19:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 07:19:28 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 07:19:30 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Create a playlist/CPLAY-02' .
+
+2023-04-07 07:19:30 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Create a playlist/CPLAY-02' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create a playlist/CPLAY-03" time="23.64" classname="Test Cases/Create a playlist/CPLAY-03" status="PASSED">
+         <system-out><![CDATA[2023-04-07 07:19:30 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/CPLAY-03: Test Cases/Create a playlist/CPLAY-03
+
+2023-04-07 07:19:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 07:19:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 07:19:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 07:19:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Create a playlist/LOGIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:19:30 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/LOGIN: Test Cases/Create a playlist/LOGIN
+
+2023-04-07 07:19:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 07:19:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 07:19:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 07:19:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 07:19:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 07:19:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 07:19:31 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:19:33 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:19:33 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:19:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Valid_email): Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:19:37 - [MESSAGE][PASSED] - Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:19:37 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:19:38 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:19:38 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:19:38 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:19:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-07 07:19:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-07 07:19:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:19:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:19:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/YourLibrary_button")): Object: 'Object Repository/Create a playlist-Repo/YourLibrary_button' is clicked on
+
+2023-04-07 07:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/YourLibrary_button' is clicked on
+
+2023-04-07 07:19:46 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/New_Playlist")): Object: 'Object Repository/Create a playlist-Repo/New_Playlist' is clicked on
+
+2023-04-07 07:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/New_Playlist' is clicked on
+
+2023-04-07 07:19:47 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/MyPlaylist_name")): Object: 'Object Repository/Create a playlist-Repo/MyPlaylist_name' is clicked on
+
+2023-04-07 07:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/MyPlaylist_name' is clicked on
+
+2023-04-07 07:19:48 - [TEST_STEP][PASSED] - setText(findTestObject("Create a playlist-Repo/namePlaylist_inputText"), "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore "): Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ' is set on object 'Object Repository/Create a playlist-Repo/namePlaylist_inputText'
+
+2023-04-07 07:19:49 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ' is set on object 'Object Repository/Create a playlist-Repo/namePlaylist_inputText'
+
+2023-04-07 07:19:49 - [TEST_STEP][PASSED] - verifyTextPresent("100/100", false): Text '100/100' is present on page 
+
+2023-04-07 07:19:50 - [MESSAGE][PASSED] - Text '100/100' is present on page 
+
+2023-04-07 07:19:50 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/Save_button")): Object: 'Object Repository/Create a playlist-Repo/Save_button' is clicked on
+
+2023-04-07 07:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/Save_button' is clicked on
+
+2023-04-07 07:19:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 07:19:52 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 07:19:54 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Create a playlist/CPLAY-03' .
+
+2023-04-07 07:19:54 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Create a playlist/CPLAY-03' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create a playlist/CPLAY-04" time="19.693" classname="Test Cases/Create a playlist/CPLAY-04" status="PASSED">
+         <system-out><![CDATA[2023-04-07 07:19:54 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/CPLAY-04: Test Cases/Create a playlist/CPLAY-04
+
+2023-04-07 07:19:54 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 07:19:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 07:19:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 07:19:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Create a playlist/LOGIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:19:54 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/LOGIN: Test Cases/Create a playlist/LOGIN
+
+2023-04-07 07:19:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 07:19:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 07:19:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 07:19:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 07:19:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 07:19:55 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 07:19:55 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:19:57 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:19:59 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Valid_email): Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:20:01 - [MESSAGE][PASSED] - Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:20:01 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:20:02 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:20:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-07 07:20:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-07 07:20:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:20:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:20:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:20:06 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/YourLibrary_button")): Object: 'Object Repository/Create a playlist-Repo/YourLibrary_button' is clicked on
+
+2023-04-07 07:20:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/YourLibrary_button' is clicked on
+
+2023-04-07 07:20:06 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/New_Playlist")): Object: 'Object Repository/Create a playlist-Repo/New_Playlist' is clicked on
+
+2023-04-07 07:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/New_Playlist' is clicked on
+
+2023-04-07 07:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/MyPlaylist_name")): Object: 'Object Repository/Create a playlist-Repo/MyPlaylist_name' is clicked on
+
+2023-04-07 07:20:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/MyPlaylist_name' is clicked on
+
+2023-04-07 07:20:09 - [TEST_STEP][PASSED] - setText(findTestObject("Create a playlist-Repo/Description_inputText"), "A collection of my favorite songs"): Text 'A collection of my favorite songs' is set on object 'Object Repository/Create a playlist-Repo/Description_inputText'
+
+2023-04-07 07:20:10 - [MESSAGE][PASSED] - Text 'A collection of my favorite songs' is set on object 'Object Repository/Create a playlist-Repo/Description_inputText'
+
+2023-04-07 07:20:10 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/Save_button")): Object: 'Object Repository/Create a playlist-Repo/Save_button' is clicked on
+
+2023-04-07 07:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/Save_button' is clicked on
+
+2023-04-07 07:20:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 07:20:11 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 07:20:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Create a playlist/CPLAY-04' .
+
+2023-04-07 07:20:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Create a playlist/CPLAY-04' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create a playlist/CPLAY-05" time="21.872" classname="Test Cases/Create a playlist/CPLAY-05" status="PASSED">
+         <system-out><![CDATA[2023-04-07 07:20:13 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/CPLAY-05: Test Cases/Create a playlist/CPLAY-05
+
+2023-04-07 07:20:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 07:20:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 07:20:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 07:20:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Create a playlist/LOGIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:20:14 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/LOGIN: Test Cases/Create a playlist/LOGIN
+
+2023-04-07 07:20:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 07:20:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 07:20:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 07:20:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 07:20:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 07:20:15 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 07:20:15 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:20:16 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:20:18 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Valid_email): Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:20:20 - [MESSAGE][PASSED] - Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:20:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:20:21 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:20:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-07 07:20:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-07 07:20:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:20:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:20:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:20:27 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/YourLibrary_button")): Object: 'Object Repository/Create a playlist-Repo/YourLibrary_button' is clicked on
+
+2023-04-07 07:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/YourLibrary_button' is clicked on
+
+2023-04-07 07:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/New_Playlist")): Object: 'Object Repository/Create a playlist-Repo/New_Playlist' is clicked on
+
+2023-04-07 07:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/New_Playlist' is clicked on
+
+2023-04-07 07:20:29 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/MyPlaylist_name")): Object: 'Object Repository/Create a playlist-Repo/MyPlaylist_name' is clicked on
+
+2023-04-07 07:20:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/MyPlaylist_name' is clicked on
+
+2023-04-07 07:20:30 - [TEST_STEP][PASSED] - setText(findTestObject("Create a playlist-Repo/Description_inputText"), "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu"): Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu' is set on object 'Object Repository/Create a playlist-Repo/Description_inputText'
+
+2023-04-07 07:20:31 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillu' is set on object 'Object Repository/Create a playlist-Repo/Description_inputText'
+
+2023-04-07 07:20:31 - [TEST_STEP][PASSED] - verifyTextPresent("300/300", false): Text '300/300' is present on page 
+
+2023-04-07 07:20:32 - [MESSAGE][PASSED] - Text '300/300' is present on page 
+
+2023-04-07 07:20:32 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/Save_button")): Object: 'Object Repository/Create a playlist-Repo/Save_button' is clicked on
+
+2023-04-07 07:20:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/Save_button' is clicked on
+
+2023-04-07 07:20:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 07:20:33 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 07:20:35 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Create a playlist/CPLAY-05' .
+
+2023-04-07 07:20:35 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Create a playlist/CPLAY-05' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create a playlist/CPLAY-06" time="21.932" classname="Test Cases/Create a playlist/CPLAY-06" status="PASSED">
+         <system-out><![CDATA[2023-04-07 07:20:35 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/CPLAY-06: Test Cases/Create a playlist/CPLAY-06
+
+2023-04-07 07:20:35 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2023-04-07 07:20:35 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2023-04-07 07:20:35 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2023-04-07 07:20:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Create a playlist/LOGIN"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:20:36 - [TEST_CASE][PASSED] - Test Cases/Create a playlist/LOGIN: Test Cases/Create a playlist/LOGIN
+
+2023-04-07 07:20:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-07 07:20:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-07 07:20:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-07 07:20:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-07 07:20:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-07 07:20:37 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-07 07:20:37 - [TEST_STEP][PASSED] - navigateToUrl(website): Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:20:38 - [MESSAGE][PASSED] - Navigate to 'http://open.spotify.com' successfully
+
+2023-04-07 07:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(homepage)")): Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(homepage)' is clicked on
+
+2023-04-07 07:20:39 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Email_inputText"), Valid_email): Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:20:41 - [MESSAGE][PASSED] - Text 'testing.brins@gmail.com' is set on object 'Object Repository/Login-Repo/Email_inputText'
+
+2023-04-07 07:20:41 - [TEST_STEP][PASSED] - setText(findTestObject("Login-Repo/Password_inputText"), Valid_password): Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:20:42 - [MESSAGE][PASSED] - Text 'testingbrins!' is set on object 'Object Repository/Login-Repo/Password_inputText'
+
+2023-04-07 07:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/RememberMe_check_button")): Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/RememberMe_check_button' is clicked on
+
+2023-04-07 07:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Login-Repo/Login_button(loginpage)")): Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Login-Repo/Login_button(loginpage)' is clicked on
+
+2023-04-07 07:20:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-04-07 07:20:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-04-07 07:20:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home"): Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:20:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login-Repo/Assert-verify-element/Assert_Home' are matched.
+
+2023-04-07 07:20:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Create a playlist/LOGIN' successfully
+
+2023-04-07 07:20:47 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/YourLibrary_button")): Object: 'Object Repository/Create a playlist-Repo/YourLibrary_button' is clicked on
+
+2023-04-07 07:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/YourLibrary_button' is clicked on
+
+2023-04-07 07:20:48 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/New_Playlist")): Object: 'Object Repository/Create a playlist-Repo/New_Playlist' is clicked on
+
+2023-04-07 07:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/New_Playlist' is clicked on
+
+2023-04-07 07:20:50 - [TEST_STEP][PASSED] - click(findTestObject("Create a playlist-Repo/MyPlaylist_name")): Object: 'Object Repository/Create a playlist-Repo/MyPlaylist_name' is clicked on
+
+2023-04-07 07:20:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create a playlist-Repo/MyPlaylist_name' is clicked on
+
+2023-04-07 07:20:52 - [TEST_STEP][PASSED] - setText(findTestObject("Create a playlist-Repo/namePlaylist_inputText"), "My Awesome Playlist"): Text 'My Awesome Playlist' is set on object 'Object Repository/Create a playlist-Repo/namePlaylist_inputText'
+
+2023-04-07 07:20:53 - [MESSAGE][PASSED] - Text 'My Awesome Playlist' is set on object 'Object Repository/Create a playlist-Repo/namePlaylist_inputText'
+
+2023-04-07 07:20:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create a playlist-Repo/namePlaylist_inputText"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Create a playlist-Repo/namePlaylist_inputText'
+
+2023-04-07 07:20:53 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Create a playlist-Repo/namePlaylist_inputText'
+
+2023-04-07 07:20:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Create a playlist-Repo/namePlaylist_inputText"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Create a playlist-Repo/namePlaylist_inputText'
+
+2023-04-07 07:20:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Create a playlist-Repo/namePlaylist_inputText'
+
+2023-04-07 07:20:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Create a playlist-Repo/Assert_name_required"), "Playlist name is required."): Actual text and expected text of test object 'Object Repository/Create a playlist-Repo/Assert_name_required' are matched.
+
+2023-04-07 07:20:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create a playlist-Repo/Assert_name_required' are matched.
+
+2023-04-07 07:20:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-07 07:20:55 - [MESSAGE][PASSED] - Browser is closed
+
+2023-04-07 07:20:57 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Create a playlist/CPLAY-06' .
+
+2023-04-07 07:20:57 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Create a playlist/CPLAY-06' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-07 07:18:42 - [TEST_SUITE][PASSED] - Create a playlist: Test Cases/Create a playlist/CPLAY-06]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

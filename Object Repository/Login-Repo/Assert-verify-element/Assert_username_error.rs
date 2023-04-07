@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Assert_username_error</name>
+   <tag></tag>
+   <elementGuidId>243e4bef-3157-4dba-b060-dab2cd83155c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='username-error']/span/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.Type__TypeElement-sc-goli3j-0.gkqrGP.sc-eDWCr.hDJnrz</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>7019e5f0-a66b-4049-8956-a2bdd336a238</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Type__TypeElement-sc-goli3j-0 gkqrGP sc-eDWCr hDJnrz</value>
+      <webElementGuid>e90bf433-3a43-45f4-935b-c8ccd873ac9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-encore-id</name>
+      <type>Main</type>
+      <value>type</value>
+      <webElementGuid>f5ab5cbf-ce1c-4386-9386-9c8fe1fe9fad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please enter your Spotify username or email address.</value>
+      <webElementGuid>e501eb2a-efba-4b5a-b0f1-d961a469e4a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;username-error&quot;)/span[@class=&quot;Text-sc-g5kv67-0 jYLjty&quot;]/p[@class=&quot;Type__TypeElement-sc-goli3j-0 gkqrGP sc-eDWCr hDJnrz&quot;]</value>
+      <webElementGuid>51d01acb-9d62-44c0-b885-c66583e9d24b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='username-error']/span/p</value>
+      <webElementGuid>b7d749e1-73cf-4bad-8183-28beab74c628</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address or username'])[1]/following::p[1]</value>
+      <webElementGuid>7f9da4df-2818-4298-b0cd-7579c9cccc67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[1]/following::p[1]</value>
+      <webElementGuid>24e115d3-633e-476e-9cc5-18a464618971</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::p[1]</value>
+      <webElementGuid>ef2b3137-fa9a-4c7b-ad04-f04e049b5824</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log In'])[1]/preceding::p[2]</value>
+      <webElementGuid>8f2083b2-4dc4-4c99-a7da-97bd686a9a7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Please enter your Spotify username or email address.']/parent::*</value>
+      <webElementGuid>6d675b9f-bc5c-48ad-9474-ad58ba889b80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/p</value>
+      <webElementGuid>429e3f72-a758-4d44-b402-fd6f7ec2541c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Please enter your Spotify username or email address.' or . = 'Please enter your Spotify username or email address.')]</value>
+      <webElementGuid>15b2db45-a133-4930-8d4f-30880ee848a7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

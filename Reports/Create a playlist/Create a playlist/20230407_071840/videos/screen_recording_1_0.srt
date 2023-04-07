@@ -1,0 +1,60 @@
+1
+00:00:00,193 --> 00:00:00,544
+1. callTestCase(findTestCase("Create a playlist/LOGIN"), [:], STOP_ON_FAILURE)
+
+2
+00:00:00,549 --> 00:00:02,296
+1. openBrowser("")
+
+3
+00:00:02,297 --> 00:00:02,463
+5. maximizeWindow()
+
+4
+00:00:02,464 --> 00:00:06,821
+9. navigateToUrl(website)
+
+5
+00:00:06,822 --> 00:00:09,519
+13. click(findTestObject("Login-Repo/Login_button(homepage)"))
+
+6
+00:00:09,521 --> 00:00:11,535
+17. setText(findTestObject("Login-Repo/Email_inputText"), Valid_email)
+
+7
+00:00:11,536 --> 00:00:12,222
+21. setText(findTestObject("Login-Repo/Password_inputText"), Valid_password)
+
+8
+00:00:12,223 --> 00:00:12,656
+25. click(findTestObject("Login-Repo/RememberMe_check_button"))
+
+9
+00:00:12,657 --> 00:00:13,049
+29. click(findTestObject("Login-Repo/Login_button(loginpage)"))
+
+10
+00:00:13,049 --> 00:00:16,073
+33. delay(3)
+
+11
+00:00:16,073 --> 00:00:16,642
+37. verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home")
+
+12
+00:00:16,643 --> 00:00:19,412
+5. click(findTestObject("Create a playlist-Repo/CreatePlaylist_button"))
+
+13
+00:00:19,414 --> 00:00:20,797
+9. verifyElementText(findTestObject("Create a playlist-Repo/Assert_Playlist"), "Playlist")
+
+14
+00:00:20,798 --> 00:00:21,131
+13. getText(findTestObject("Create a playlist-Repo/getText_MyPlaylist"))
+
+15
+00:00:23,194 --> 00:00:23,194
+1. println(testCaseContext.getTestCaseId())
+

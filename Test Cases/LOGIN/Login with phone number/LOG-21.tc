@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Input phone number yang terdaftar kemudian hapus akan muncul notif error</description>
+   <name>LOG-21</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aedb7a34-00a6-47fe-bab7-bef857053dda</testCaseGuid>
+</TestCaseEntity>

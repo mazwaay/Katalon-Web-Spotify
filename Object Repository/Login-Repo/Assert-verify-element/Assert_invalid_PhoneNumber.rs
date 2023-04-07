@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Assert_invalid_PhoneNumber</name>
+   <tag></tag>
+   <elementGuidId>fd0f55d0-44b6-4e93-b328-a4f0a3d25e67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.Message-sc-15vkh7g-0.dHbxKh</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4dd8e13e-8d89-45e8-bcff-a123cf63345d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Message-sc-15vkh7g-0 dHbxKh</value>
+      <webElementGuid>b34a1859-4f80-4521-9f2b-715a173e6161</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Check your phone number.</value>
+      <webElementGuid>3a63eb02-e61d-4f1e-98d2-8089c86ceda6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-bCfvAP cIiHZY&quot;]/div[@class=&quot;sc-khsqcC kLHzHb&quot;]/div[@class=&quot;sc-hTBuwn dPHlwQ&quot;]/div[@class=&quot;sc-gswNZR wKwWn&quot;]/div[@class=&quot;Wrapper-sc-62m9tu-0 dkCVSE encore-negative-set sc-iveFHk QECxu&quot;]/span[@class=&quot;Message-sc-15vkh7g-0 dHbxKh&quot;]</value>
+      <webElementGuid>9d81f3be-ba6b-436d-8f3b-d7457e62ad70</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/span</value>
+      <webElementGuid>79eb59c1-f787-457c-800e-06194ae85815</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[3]</value>
+      <webElementGuid>2a954cd2-cf31-4ca6-96c7-31f0fcb4ea5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[6]</value>
+      <webElementGuid>2e66198e-1350-4c1c-8851-ac5a774f8ddc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Check your phone number.']/parent::*</value>
+      <webElementGuid>23a0a6c2-ca01-47cd-8894-b48a59ec4c6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>60b64ee9-b046-4884-a587-8d24bd48d654</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Check your phone number.' or . = 'Check your phone number.')]</value>
+      <webElementGuid>514c6949-3d3a-4848-8409-618fa8d1a84d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

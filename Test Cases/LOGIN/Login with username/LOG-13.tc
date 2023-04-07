@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan username yang salah dan kata sandi yang benar.</description>
+   <name>LOG-13</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbab7584-4507-48df-a4dd-19a7087e0ae0</testCaseGuid>
+</TestCaseEntity>

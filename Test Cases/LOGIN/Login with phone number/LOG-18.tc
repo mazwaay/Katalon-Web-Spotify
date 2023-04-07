@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Login phone number kurang dari
+12 digit&quot;</description>
+   <name>LOG-18</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3483e768-a911-4586-aeb6-e33e4c0e7dd1</testCaseGuid>
+</TestCaseEntity>

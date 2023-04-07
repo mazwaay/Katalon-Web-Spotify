@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Assert_enter_PhoneNumber</name>
+   <tag></tag>
+   <elementGuidId>b6fa44e8-f514-4cc7-b3d6-909ff53f60ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='error-phone-number-non-digit']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.Text-sc-g5kv67-0.jYLjty</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>33a0b112-6330-49f0-ae59-c7fb4ed4ef0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Text-sc-g5kv67-0 jYLjty</value>
+      <webElementGuid>b185320f-055d-4707-9c1e-bc6d04a1c8e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please enter your phone number</value>
+      <webElementGuid>13f430fe-fe75-4d89-9d4a-e9d2f9967707</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;error-phone-number-non-digit&quot;)/span[@class=&quot;Text-sc-g5kv67-0 jYLjty&quot;]</value>
+      <webElementGuid>f5ebc8d7-7e03-4ae5-8be0-c10635c31947</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='error-phone-number-non-digit']/span</value>
+      <webElementGuid>d9c2c957-0618-4fcd-bd61-14c7098410fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[3]</value>
+      <webElementGuid>6db83fcf-076d-44e5-bab6-533cc2771e07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[6]</value>
+      <webElementGuid>1dccbc52-39e9-4eb6-bf4b-0aa8b25d87dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Please enter your phone number']/parent::*</value>
+      <webElementGuid>b4072cdd-7567-4c4f-a28a-391397ed14ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>17002503-40e8-481a-94c8-df5f08f08c6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Please enter your phone number' or . = 'Please enter your phone number')]</value>
+      <webElementGuid>fbc2a663-09db-4a9a-8397-62ef0045aabf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

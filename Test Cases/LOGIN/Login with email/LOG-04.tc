@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login hanya memasukkan field password</description>
+   <name>LOG-04</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6adf0ee8-fc1d-4e31-8002-263738dec95b</testCaseGuid>
+</TestCaseEntity>

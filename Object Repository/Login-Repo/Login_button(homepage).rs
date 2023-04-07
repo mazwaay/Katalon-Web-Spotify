@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Login_button(homepage)</name>
+   <tag></tag>
+   <elementGuidId>039316eb-83bc-4b58-8eaf-f62bff1fcbac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/div[2]/div/header/div[5]/button[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ButtonInner-sc-14ud5tc-0.iIKcFo.encore-inverted-light-set</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>af9b205b-0257-4a02-9e9a-62057a927dae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ButtonInner-sc-14ud5tc-0 iIKcFo encore-inverted-light-set</value>
+      <webElementGuid>3d4c8e8c-0d47-48e9-9f77-ca3ae835720f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log in</value>
+      <webElementGuid>2d78c6d1-7099-4b96-a7f2-c569d11c5d8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;Root encore-dark-theme&quot;]/div[@class=&quot;Root__top-container Root__top-container--right-sidebar-hidden&quot;]/div[@class=&quot;Root__top-bar&quot;]/header[@class=&quot;facDIsOQo9q7kiWc4jSg qxbaGYC8rgMLfyOuYRCM&quot;]/div[@class=&quot;LKFFk88SIRC9QKKUWR5u&quot;]/button[@class=&quot;Button-sc-qlcn5g-0 eeDakC&quot;]/span[@class=&quot;ButtonInner-sc-14ud5tc-0 iIKcFo encore-inverted-light-set&quot;]</value>
+      <webElementGuid>37cda94c-fc42-46cc-b4a0-73776b1b7492</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/div[2]/div/header/div[5]/button[2]/span</value>
+      <webElementGuid>79c046d0-79cd-4995-8f1d-03a1695f96c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign up'])[1]/following::span[1]</value>
+      <webElementGuid>908a45de-52ba-44b8-9f6d-af1390863d4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::span[1]</value>
+      <webElementGuid>46757167-5c94-49db-933a-cb36ddff33df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::span[2]</value>
+      <webElementGuid>c8df7157-6ee2-4fe0-9c9b-7476f04f5167</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
+      <webElementGuid>fd66646b-43cc-4bdc-9339-b8ed74a0d445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>e0c10821-e701-4428-a5fc-5a075e176978</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Log in' or . = 'Log in')]</value>
+      <webElementGuid>18e2afc8-4880-439b-a52c-6938e7ab5890</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

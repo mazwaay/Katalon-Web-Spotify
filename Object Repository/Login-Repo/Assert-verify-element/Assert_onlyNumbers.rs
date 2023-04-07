@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Assert_onlyNumbers</name>
+   <tag></tag>
+   <elementGuidId>0c2621c6-c1c3-4b79-a7f2-77261316cdaa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='error-phone-number-non-digit']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.Text-sc-g5kv67-0.jYLjty</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0fd9b88a-dffc-461b-8d3c-26419a353f8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Text-sc-g5kv67-0 jYLjty</value>
+      <webElementGuid>43a9c34d-5031-47bb-8d52-77daf5695436</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You can only enter numbers.</value>
+      <webElementGuid>08aeedf2-e6d6-4640-9021-522046710220</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;error-phone-number-non-digit&quot;)/span[@class=&quot;Text-sc-g5kv67-0 jYLjty&quot;]</value>
+      <webElementGuid>e7a02ec2-8363-45b6-b3e7-b581914386ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='error-phone-number-non-digit']/span</value>
+      <webElementGuid>a98449c7-f301-4f9e-a336-edb54494b1df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[3]</value>
+      <webElementGuid>1ee74ed0-20ba-4a2c-861b-1371c0486a75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[6]</value>
+      <webElementGuid>3ff6d945-f552-4f75-a24d-dee6169efa61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You can only enter numbers.']/parent::*</value>
+      <webElementGuid>d6d3add8-ea42-4b5d-88a7-fec3491d0c5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>fb3282c9-aea9-47ea-9c18-6c4711a3ff30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'You can only enter numbers.' or . = 'You can only enter numbers.')]</value>
+      <webElementGuid>87b38930-ab46-47c6-b766-8dec2cb73f43</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

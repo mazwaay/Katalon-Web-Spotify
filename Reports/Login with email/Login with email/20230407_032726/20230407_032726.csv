@@ -1,0 +1,163 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login with email,Chrome 112.0.0.0,,,2023-04-07 03:27:28,2023-04-07 03:30:28,3m - 0.063s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-01,Chrome 112.0.0.0,Login dengan email dan kata sandi yang valid,,2023-04-07 03:27:28,2023-04-07 03:27:48,20.234s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:27:28,2023-04-07 03:27:28,0.014s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:27:28,2023-04-07 03:27:30,1.951s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:27:30,2023-04-07 03:27:31,0.134s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:27:31,2023-04-07 03:27:35,4.793s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:27:35,2023-04-07 03:27:37,1.919s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), Valid_email)",Chrome 112.0.0.0,,,2023-04-07 03:27:37,2023-04-07 03:27:40,2.687s,PASSED
+"setText(findTestObject(""Login-Repo/Password_inputText""), Valid_password)",Chrome 112.0.0.0,,,2023-04-07 03:27:40,2023-04-07 03:27:41,0.713s,PASSED
+"click(findTestObject(""Login-Repo/RememberMe_check_button""))",Chrome 112.0.0.0,,,2023-04-07 03:27:41,2023-04-07 03:27:41,0.329s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(loginpage)""))",Chrome 112.0.0.0,,,2023-04-07 03:27:41,2023-04-07 03:27:41,0.334s,PASSED
+delay(3),Chrome 112.0.0.0,,,2023-04-07 03:27:41,2023-04-07 03:27:44,3.027s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_Home""), ""Home"")",Chrome 112.0.0.0,,,2023-04-07 03:27:44,2023-04-07 03:27:45,1.180s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:27:45,2023-04-07 03:27:46,0.650s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:27:48,2023-04-07 03:27:48,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-02,Chrome 112.0.0.0,Login dengan mengkosongkan field email dan password.,,2023-04-07 03:27:48,2023-04-07 03:28:01,12.729s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:27:48,2023-04-07 03:27:48,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:27:48,2023-04-07 03:27:49,1.144s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:27:49,2023-04-07 03:27:50,0.126s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:27:50,2023-04-07 03:27:52,2.343s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:27:52,2023-04-07 03:27:53,1.301s,PASSED
+"click(findTestObject(""Login-Repo/RememberMe_check_button""))",Chrome 112.0.0.0,,,2023-04-07 03:27:53,2023-04-07 03:27:56,2.343s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(loginpage)""))",Chrome 112.0.0.0,,,2023-04-07 03:27:56,2023-04-07 03:27:56,0.342s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 03:27:56,2023-04-07 03:27:58,2.016s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password""), ""Incorrect username or password."")",Chrome 112.0.0.0,,,2023-04-07 03:27:58,2023-04-07 03:27:58,0.294s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:27:58,2023-04-07 03:27:59,0.642s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:28:01,2023-04-07 03:28:01,0.001s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-03,Chrome 112.0.0.0,Login hanya memasukkan field email,,2023-04-07 03:28:01,2023-04-07 03:28:16,14.976s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:28:01,2023-04-07 03:28:01,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:28:01,2023-04-07 03:28:02,1.142s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:28:02,2023-04-07 03:28:02,0.127s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:28:02,2023-04-07 03:28:07,4.689s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:28:07,2023-04-07 03:28:08,0.554s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), Valid_email)",Chrome 112.0.0.0,,,2023-04-07 03:28:08,2023-04-07 03:28:10,2.654s,PASSED
+"click(findTestObject(""Login-Repo/RememberMe_check_button""))",Chrome 112.0.0.0,,,2023-04-07 03:28:10,2023-04-07 03:28:11,0.325s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(loginpage)""))",Chrome 112.0.0.0,,,2023-04-07 03:28:11,2023-04-07 03:28:11,0.330s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 03:28:11,2023-04-07 03:28:13,2.009s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password""), ""Incorrect username or password."")",Chrome 112.0.0.0,,,2023-04-07 03:28:13,2023-04-07 03:28:13,0.318s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:28:13,2023-04-07 03:28:14,0.641s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:28:16,2023-04-07 03:28:16,0.001s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-04,Chrome 112.0.0.0,Login hanya memasukkan field password,,2023-04-07 03:28:16,2023-04-07 03:28:31,15.521s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:28:16,2023-04-07 03:28:16,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:28:16,2023-04-07 03:28:17,1.200s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:28:17,2023-04-07 03:28:17,0.129s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:28:17,2023-04-07 03:28:20,2.350s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:28:20,2023-04-07 03:28:23,3.317s,PASSED
+"setText(findTestObject(""Login-Repo/Password_inputText""), Valid_password)",Chrome 112.0.0.0,,,2023-04-07 03:28:23,2023-04-07 03:28:26,2.733s,PASSED
+"click(findTestObject(""Login-Repo/RememberMe_check_button""))",Chrome 112.0.0.0,,,2023-04-07 03:28:26,2023-04-07 03:28:26,0.315s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(loginpage)""))",Chrome 112.0.0.0,,,2023-04-07 03:28:26,2023-04-07 03:28:26,0.335s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 03:28:26,2023-04-07 03:28:28,2.007s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password""), ""Incorrect username or password."")",Chrome 112.0.0.0,,,2023-04-07 03:28:28,2023-04-07 03:28:29,0.316s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:28:29,2023-04-07 03:28:29,0.627s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:28:31,2023-04-07 03:28:31,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-05,Chrome 112.0.0.0,Login dengan email yang terdaftar dan kata sandi yang salah,,2023-04-07 03:28:31,2023-04-07 03:28:46,14.852s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:28:31,2023-04-07 03:28:31,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:28:32,2023-04-07 03:28:33,1.140s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:28:33,2023-04-07 03:28:33,0.128s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:28:33,2023-04-07 03:28:35,2.284s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:28:35,2023-04-07 03:28:36,1.245s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), Valid_email)",Chrome 112.0.0.0,,,2023-04-07 03:28:36,2023-04-07 03:28:40,3.639s,PASSED
+"setText(findTestObject(""Login-Repo/Password_inputText""), Invalid_password)",Chrome 112.0.0.0,,,2023-04-07 03:28:40,2023-04-07 03:28:41,0.632s,PASSED
+"click(findTestObject(""Login-Repo/RememberMe_check_button""))",Chrome 112.0.0.0,,,2023-04-07 03:28:41,2023-04-07 03:28:41,0.335s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(loginpage)""))",Chrome 112.0.0.0,,,2023-04-07 03:28:41,2023-04-07 03:28:41,0.333s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 03:28:41,2023-04-07 03:28:43,2.007s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password""), ""Incorrect username or password."")",Chrome 112.0.0.0,,,2023-04-07 03:28:43,2023-04-07 03:28:44,0.304s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:28:44,2023-04-07 03:28:44,0.623s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:28:46,2023-04-07 03:28:46,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-06,Chrome 112.0.0.0,Login dengan email yang tidak terdaftar dan kata sandi yang benar.,,2023-04-07 03:28:46,2023-04-07 03:29:05,18.997s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:28:46,2023-04-07 03:28:46,0.005s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:28:46,2023-04-07 03:28:48,1.084s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:28:48,2023-04-07 03:28:48,0.153s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:28:48,2023-04-07 03:28:50,2.443s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:28:50,2023-04-07 03:28:56,5.784s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), Invalid_email)",Chrome 112.0.0.0,,,2023-04-07 03:28:56,2023-04-07 03:28:59,3.027s,PASSED
+"setText(findTestObject(""Login-Repo/Password_inputText""), Valid_password)",Chrome 112.0.0.0,,,2023-04-07 03:28:59,2023-04-07 03:29:00,0.651s,PASSED
+"click(findTestObject(""Login-Repo/RememberMe_check_button""))",Chrome 112.0.0.0,,,2023-04-07 03:29:00,2023-04-07 03:29:00,0.328s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(loginpage)""))",Chrome 112.0.0.0,,,2023-04-07 03:29:00,2023-04-07 03:29:00,0.350s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 03:29:00,2023-04-07 03:29:02,2.016s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password""), ""Incorrect username or password."")",Chrome 112.0.0.0,,,2023-04-07 03:29:02,2023-04-07 03:29:03,0.295s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:29:03,2023-04-07 03:29:03,0.643s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:29:05,2023-04-07 03:29:05,0.001s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-07,Chrome 112.0.0.0,Login dengan email yang tidak terdaftar dan kata sandi yang benar.,,2023-04-07 03:29:05,2023-04-07 03:29:24,19.210s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:29:05,2023-04-07 03:29:05,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:29:05,2023-04-07 03:29:07,1.079s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:29:07,2023-04-07 03:29:07,0.128s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:29:07,2023-04-07 03:29:09,2.095s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:29:09,2023-04-07 03:29:15,6.593s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), validate_email_1)",Chrome 112.0.0.0,,,2023-04-07 03:29:15,2023-04-07 03:29:18,2.847s,PASSED
+"setText(findTestObject(""Login-Repo/Password_inputText""), Valid_password)",Chrome 112.0.0.0,,,2023-04-07 03:29:18,2023-04-07 03:29:19,0.652s,PASSED
+"click(findTestObject(""Login-Repo/RememberMe_check_button""))",Chrome 112.0.0.0,,,2023-04-07 03:29:19,2023-04-07 03:29:19,0.329s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(loginpage)""))",Chrome 112.0.0.0,,,2023-04-07 03:29:19,2023-04-07 03:29:19,0.332s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 03:29:19,2023-04-07 03:29:21,2.007s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password""), ""Incorrect username or password."")",Chrome 112.0.0.0,,,2023-04-07 03:29:21,2023-04-07 03:29:22,0.305s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:29:22,2023-04-07 03:29:22,0.658s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:29:24,2023-04-07 03:29:24,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-08,Chrome 112.0.0.0,"Login menggunakan email yang tidak valid (tanpa menggunakan ""."")",,2023-04-07 03:29:24,2023-04-07 03:29:40,15.441s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:29:24,2023-04-07 03:29:24,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:29:25,2023-04-07 03:29:26,1.076s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:29:26,2023-04-07 03:29:26,0.127s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:29:26,2023-04-07 03:29:28,2.077s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:29:28,2023-04-07 03:29:31,3.053s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), validate_email_2)",Chrome 112.0.0.0,,,2023-04-07 03:29:31,2023-04-07 03:29:34,2.643s,PASSED
+"setText(findTestObject(""Login-Repo/Password_inputText""), Valid_password)",Chrome 112.0.0.0,,,2023-04-07 03:29:34,2023-04-07 03:29:34,0.654s,PASSED
+"click(findTestObject(""Login-Repo/RememberMe_check_button""))",Chrome 112.0.0.0,,,2023-04-07 03:29:34,2023-04-07 03:29:35,0.320s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(loginpage)""))",Chrome 112.0.0.0,,,2023-04-07 03:29:35,2023-04-07 03:29:35,0.342s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 03:29:35,2023-04-07 03:29:37,2.011s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password""), ""Incorrect username or password."")",Chrome 112.0.0.0,,,2023-04-07 03:29:37,2023-04-07 03:29:37,0.296s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:29:37,2023-04-07 03:29:38,0.645s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:29:40,2023-04-07 03:29:40,0.001s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-09,Chrome 112.0.0.0,Login dengan email yang tidak terdaftar dan kata sandi yang salah.,,2023-04-07 03:29:40,2023-04-07 03:29:58,17.982s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:29:40,2023-04-07 03:29:40,0.002s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:29:40,2023-04-07 03:29:41,1.154s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:29:41,2023-04-07 03:29:41,0.140s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:29:41,2023-04-07 03:29:44,2.218s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:29:44,2023-04-07 03:29:49,5.590s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), Invalid_email)",Chrome 112.0.0.0,,,2023-04-07 03:29:49,2023-04-07 03:29:52,2.313s,PASSED
+"setText(findTestObject(""Login-Repo/Password_inputText""), Invalid_password)",Chrome 112.0.0.0,,,2023-04-07 03:29:52,2023-04-07 03:29:52,0.637s,PASSED
+"click(findTestObject(""Login-Repo/RememberMe_check_button""))",Chrome 112.0.0.0,,,2023-04-07 03:29:52,2023-04-07 03:29:52,0.335s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(loginpage)""))",Chrome 112.0.0.0,,,2023-04-07 03:29:52,2023-04-07 03:29:53,0.333s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 03:29:53,2023-04-07 03:29:55,2.010s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/assert-error_incorrect-username-or-password""), ""Incorrect username or password."")",Chrome 112.0.0.0,,,2023-04-07 03:29:55,2023-04-07 03:29:55,0.405s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:29:55,2023-04-07 03:29:56,0.660s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:29:58,2023-04-07 03:29:58,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-10,Chrome 112.0.0.0,"""Input email atau username kemudian
+hapus akan muncul notif error""",,2023-04-07 03:29:58,2023-04-07 03:30:13,14.838s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:29:58,2023-04-07 03:29:58,0.002s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:29:58,2023-04-07 03:29:59,1.136s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:29:59,2023-04-07 03:29:59,0.126s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:29:59,2023-04-07 03:30:02,2.277s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:30:02,2023-04-07 03:30:04,1.886s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), Valid_email)",Chrome 112.0.0.0,,,2023-04-07 03:30:04,2023-04-07 03:30:07,3.610s,PASSED
+"sendKeys(findTestObject(""Login-Repo/Email_inputText""), Keys.chord(CONTROL, ""a""))",Chrome 112.0.0.0,,,2023-04-07 03:30:07,2023-04-07 03:30:07,0.328s,PASSED
+"sendKeys(findTestObject(""Login-Repo/Email_inputText""), Keys.chord(BACK_SPACE))",Chrome 112.0.0.0,,,2023-04-07 03:30:07,2023-04-07 03:30:08,0.343s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 03:30:08,2023-04-07 03:30:10,2.005s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_username_error""), ""Please enter your Spotify username or email address."")",Chrome 112.0.0.0,,,2023-04-07 03:30:10,2023-04-07 03:30:10,0.296s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:30:10,2023-04-07 03:30:11,0.647s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:30:13,2023-04-07 03:30:13,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/Login with email/LOG-11,Chrome 112.0.0.0,"""Input email atau username kemudian
+hapus akan muncul notif error""",,2023-04-07 03:30:13,2023-04-07 03:30:28,15.113s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 03:30:13,2023-04-07 03:30:13,0.001s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 03:30:13,2023-04-07 03:30:14,1.145s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 03:30:14,2023-04-07 03:30:14,0.140s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 03:30:14,2023-04-07 03:30:16,2.209s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 03:30:16,2023-04-07 03:30:19,2.546s,PASSED
+"setText(findTestObject(""Login-Repo/Password_inputText""), Valid_password)",Chrome 112.0.0.0,,,2023-04-07 03:30:19,2023-04-07 03:30:22,3.289s,PASSED
+"sendKeys(findTestObject(""Login-Repo/Password_inputText""), Keys.chord(CONTROL, ""a""))",Chrome 112.0.0.0,,,2023-04-07 03:30:22,2023-04-07 03:30:23,0.321s,PASSED
+"sendKeys(findTestObject(""Login-Repo/Password_inputText""), Keys.chord(BACK_SPACE))",Chrome 112.0.0.0,,,2023-04-07 03:30:23,2023-04-07 03:30:23,0.316s,PASSED
+delay(2),Chrome 112.0.0.0,,,2023-04-07 03:30:23,2023-04-07 03:30:25,2.014s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_password_error""), ""Please enter your password."")",Chrome 112.0.0.0,,,2023-04-07 03:30:25,2023-04-07 03:30:25,0.314s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 03:30:25,2023-04-07 03:30:26,0.642s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 03:30:28,2023-04-07 03:30:28,0.000s,PASSED

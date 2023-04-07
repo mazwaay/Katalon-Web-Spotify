@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Input email address or username menggunakan karakter : (colon symbol)</description>
+   <name>VLOG-02</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d968d93f-f5ea-4839-a375-e237e4386855</testCaseGuid>
+</TestCaseEntity>

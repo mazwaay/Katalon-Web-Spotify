@@ -1,0 +1,80 @@
+1
+00:00:00,000 --> 00:00:00,276
+5. println(testCaseContext.getTestCaseVariables())
+
+2
+00:00:00,277 --> 00:00:00,349
+1. callTestCase(findTestCase("Create a playlist/LOGIN"), [:], STOP_ON_FAILURE)
+
+3
+00:00:00,350 --> 00:00:01,441
+1. openBrowser("")
+
+4
+00:00:01,443 --> 00:00:01,585
+5. maximizeWindow()
+
+5
+00:00:01,586 --> 00:00:02,965
+9. navigateToUrl(website)
+
+6
+00:00:02,966 --> 00:00:04,226
+13. click(findTestObject("Login-Repo/Login_button(homepage)"))
+
+7
+00:00:04,227 --> 00:00:06,296
+17. setText(findTestObject("Login-Repo/Email_inputText"), Valid_email)
+
+8
+00:00:06,297 --> 00:00:06,963
+21. setText(findTestObject("Login-Repo/Password_inputText"), Valid_password)
+
+9
+00:00:06,964 --> 00:00:07,294
+25. click(findTestObject("Login-Repo/RememberMe_check_button"))
+
+10
+00:00:07,299 --> 00:00:07,637
+29. click(findTestObject("Login-Repo/Login_button(loginpage)"))
+
+11
+00:00:07,638 --> 00:00:10,642
+33. delay(3)
+
+12
+00:00:10,643 --> 00:00:11,499
+37. verifyElementText(findTestObject("Login-Repo/Assert-verify-element/Assert_Home"), "Home")
+
+13
+00:00:11,500 --> 00:00:12,406
+5. click(findTestObject("Create a playlist-Repo/YourLibrary_button"))
+
+14
+00:00:12,407 --> 00:00:14,803
+9. click(findTestObject("Create a playlist-Repo/New_Playlist"))
+
+15
+00:00:14,804 --> 00:00:17,027
+13. click(findTestObject("Create a playlist-Repo/MyPlaylist_name"))
+
+16
+00:00:17,028 --> 00:00:17,853
+17. setText(findTestObject("Create a playlist-Repo/namePlaylist_inputText"), "My Awesome Playlist")
+
+17
+00:00:17,854 --> 00:00:18,323
+21. sendKeys(findTestObject("Create a playlist-Repo/namePlaylist_inputText"), Keys.chord(CONTROL, "a"))
+
+18
+00:00:18,324 --> 00:00:18,645
+25. sendKeys(findTestObject("Create a playlist-Repo/namePlaylist_inputText"), Keys.chord(BACK_SPACE))
+
+19
+00:00:18,645 --> 00:00:19,170
+29. verifyElementText(findTestObject("Create a playlist-Repo/Assert_name_required"), "Playlist name is required.")
+
+20
+00:00:19,170 --> 00:00:19,883
+33. closeBrowser()
+

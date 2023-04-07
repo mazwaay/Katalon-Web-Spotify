@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Phone_number_button</name>
+   <tag></tag>
+   <elementGuidId>e63e5ba3-4daa-4ec2-8702-4277a7c15389</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/ul/li[4]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d70bfd79-8170-4983-8cbc-a36d7b5ea058</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>phone-login</value>
+      <webElementGuid>36604900-84be-4843-aa3f-f58eb367002f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-encore-id</name>
+      <type>Main</type>
+      <value>buttonSecondary</value>
+      <webElementGuid>c117d3ff-b142-4e71-ae1d-f391a5b5ff35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Button-sc-y0gtbx-0 jJyUnh</value>
+      <webElementGuid>6b09677a-7cb4-4b9f-93d6-2fd5019be5a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue with phone number</value>
+      <webElementGuid>d485ff33-45af-49ee-bdd1-6f65126e4529</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-bCfvAP cIiHZY&quot;]/div[@class=&quot;sc-khsqcC kLHzHb&quot;]/div[@class=&quot;sc-hTBuwn dPHlwQ&quot;]/div[@class=&quot;sc-gswNZR wKwWn&quot;]/ul[@class=&quot;sc-gswNZR sc-cwSeag wKwWn jczggR&quot;]/li[@class=&quot;sc-iJnaPW ygyMW&quot;]/button[@class=&quot;Button-sc-y0gtbx-0 jJyUnh&quot;]</value>
+      <webElementGuid>4c0a7528-e22b-4b3c-b948-0430a5d229b0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/ul/li[4]/button</value>
+      <webElementGuid>e293d3e6-bab4-4c91-adb4-03f424d6e0b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue with Google'])[1]/following::button[1]</value>
+      <webElementGuid>55fe7063-fd0a-4bcf-913d-33b0a23f8211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue with Apple'])[1]/following::button[2]</value>
+      <webElementGuid>dcc95181-b820-49f4-8954-d008b072b0a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[1]/preceding::button[1]</value>
+      <webElementGuid>49a95c5f-2ba5-4f5f-a5fa-461d0754c9c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/button</value>
+      <webElementGuid>c59b8098-2b4a-4581-bbfb-51fcadc5e703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Continue with phone number' or . = 'Continue with phone number')]</value>
+      <webElementGuid>cbb682e4-a0b8-47bb-8909-1112a35d0ff9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

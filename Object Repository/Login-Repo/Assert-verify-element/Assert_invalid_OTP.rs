@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Assert_invalid_OTP</name>
+   <tag></tag>
+   <elementGuidId>674d4c6a-c423-41f0-ab4b-73d0abe53abe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.Message-sc-15vkh7g-0.dHbxKh</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>26b6ce4a-d171-44ae-9c8d-3eee9333bc64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Message-sc-15vkh7g-0 dHbxKh</value>
+      <webElementGuid>3c702a1f-6746-45e0-b71c-cdc7f2bf4f91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This code is invalid. Check the SMS and try again.</value>
+      <webElementGuid>17ac6525-2959-42e1-b4f4-15b696acb72e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-bCfvAP cIiHZY&quot;]/div[@class=&quot;sc-khsqcC kLHzHb&quot;]/div[@class=&quot;sc-hTBuwn dPHlwQ&quot;]/div[@class=&quot;sc-gswNZR wKwWn&quot;]/div[@class=&quot;Wrapper-sc-62m9tu-0 dkCVSE encore-negative-set sc-iveFHk QECxu&quot;]/span[@class=&quot;Message-sc-15vkh7g-0 dHbxKh&quot;]</value>
+      <webElementGuid>18335d7a-55ca-4ed2-b780-003832e6b0c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div/span</value>
+      <webElementGuid>538fc3c7-848a-4dbc-85b1-eed45a4b580c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get a new code'])[1]/preceding::span[1]</value>
+      <webElementGuid>510d412d-8c88-4d5b-b5b0-c89967469d19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::span[1]</value>
+      <webElementGuid>24e6822e-374d-4a00-99dd-7d578a14cffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='This code is invalid. Check the SMS and try again.']/parent::*</value>
+      <webElementGuid>f69d3b1f-ea9c-4031-be6b-5138590540af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>0869dcb7-9bf8-4361-806e-c86bfce12fde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'This code is invalid. Check the SMS and try again.' or . = 'This code is invalid. Check the SMS and try again.')]</value>
+      <webElementGuid>887d433b-f19c-4ca6-a4de-80ecf39e7769</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

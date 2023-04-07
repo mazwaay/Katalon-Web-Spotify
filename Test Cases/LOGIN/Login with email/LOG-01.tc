@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan email dan kata sandi yang valid</description>
+   <name>LOG-01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59605386-45b7-49d1-808b-efca4dcc51bd</testCaseGuid>
+</TestCaseEntity>

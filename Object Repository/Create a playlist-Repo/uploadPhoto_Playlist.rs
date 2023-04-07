@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>uploadPhoto_Playlist</name>
+   <tag></tag>
+   <elementGuidId>d135b02c-3929-437f-9f12-292fa0751129</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.w3w0DS8atwcgOQJAKAV2.icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/div[2]/div[3]/div/div[2]/div[2]/div/div/div[2]/main/div/section/div/div[4]/div/div[2]/div/button/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c3745a3f-29b1-42db-95a3-4d33722352cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w3w0DS8atwcgOQJAKAV2 icon</value>
+      <webElementGuid>63e16f77-deca-447a-b06a-212a729828e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose photo</value>
+      <webElementGuid>2b2519dd-c6dc-4e50-abc8-4c192cfbad5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;Root encore-dark-theme&quot;]/div[@class=&quot;Root__top-container Root__top-container--right-sidebar-hidden&quot;]/div[@class=&quot;Root__main-view&quot;]/div[@class=&quot;main-view-container&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-spotify os-host-resize-disabled os-host-scrollbar-horizontal-hidden main-view-container__scroll-node os-host-transition os-host-overflow os-host-overflow-y&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;main-view-container__scroll-node-child&quot;]/main[1]/div[@class=&quot;GlueDropTarget GlueDropTarget--tracks GlueDropTarget--local-tracks GlueDropTarget--episodes GlueDropTarget--albums&quot;]/section[@class=&quot;dZ3U5sTGUTdanNamXe1z&quot;]/div[@class=&quot;contentSpacing NXiYChVp4Oydfxd7rT5r RMDSGDMFrx8eXHpFphqG&quot;]/div[@class=&quot;oq1ci28WPaRsWkvRiB_J&quot;]/div[@class=&quot;Ws8Ec3GREpT5PAUesr9b&quot;]/div[@class=&quot;kHu_FTRgoBLSLeAJtyKY&quot;]/div[@class=&quot;MF2rLXp4d_JPNs2t0bbj&quot;]/button[@class=&quot;xfQXUkj6ThzTYbfF8ilt&quot;]/div[@class=&quot;w3w0DS8atwcgOQJAKAV2 icon&quot;]</value>
+      <webElementGuid>b2943291-f811-4562-bc11-ba8f1d55238b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/div[2]/div[3]/div/div[2]/div[2]/div/div/div[2]/main/div/section/div/div[4]/div/div[2]/div/button/div</value>
+      <webElementGuid>32d326f1-8be4-45e4-9f1d-8e7e90029431</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change volume'])[1]/following::div[29]</value>
+      <webElementGuid>29ad9325-734e-48ad-b273-f9916cacd2c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change progress'])[1]/following::div[45]</value>
+      <webElementGuid>7f641695-472d-4b16-8f6d-03706d6df129</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Playlist'])[1]/preceding::div[1]</value>
+      <webElementGuid>13e651c9-731d-4684-a599-42966b77ef6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button/div</value>
+      <webElementGuid>f579b4a7-de1a-4187-be31-f17bac630de1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Choose photo' or . = 'Choose photo')]</value>
+      <webElementGuid>b30fa775-5b82-4906-827e-458e85e4106d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+validasi input login,Chrome 112.0.0.0,,,2023-04-07 05:32:40,2023-04-07 05:33:24,43.208s,PASSED
+,,,,,,,
+Test Cases/LOGIN/validasi input login/VLOG-01,Chrome 112.0.0.0,Input email address or username menggunakan karakter & (ampersand symbol),,2023-04-07 05:32:41,2023-04-07 05:32:53,12.580s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:32:41,2023-04-07 05:32:41,0.015s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:32:41,2023-04-07 05:32:43,1.840s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:32:43,2023-04-07 05:32:43,0.164s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:32:43,2023-04-07 05:32:46,2.580s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:32:46,2023-04-07 05:32:48,2.436s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), ""&testing.brinsgmail.com"")",Chrome 112.0.0.0,,,2023-04-07 05:32:48,2023-04-07 05:32:50,2.043s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_Forbidden_characters""), ""Forbidden character(s) & in username."")",Chrome 112.0.0.0,,,2023-04-07 05:32:50,2023-04-07 05:32:50,0.450s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 05:32:50,2023-04-07 05:32:51,0.687s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:32:53,2023-04-07 05:32:53,0.001s,PASSED
+,,,,,,,
+Test Cases/LOGIN/validasi input login/VLOG-02,Chrome 112.0.0.0,Input email address or username menggunakan karakter : (colon symbol),,2023-04-07 05:32:53,2023-04-07 05:33:04,10.631s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:32:53,2023-04-07 05:32:53,0.002s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:32:53,2023-04-07 05:32:55,1.111s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:32:55,2023-04-07 05:32:55,0.140s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:32:55,2023-04-07 05:32:58,3.206s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:32:58,2023-04-07 05:32:58,0.568s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), "":testing.brinsgmail.com"")",Chrome 112.0.0.0,,,2023-04-07 05:32:58,2023-04-07 05:33:01,2.269s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_Forbidden_characters""), ""Forbidden character(s) : in username."")",Chrome 112.0.0.0,,,2023-04-07 05:33:01,2023-04-07 05:33:01,0.418s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 05:33:01,2023-04-07 05:33:02,0.638s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:33:04,2023-04-07 05:33:04,0.001s,PASSED
+,,,,,,,
+Test Cases/LOGIN/validasi input login/VLOG-03,Chrome 112.0.0.0,Input email address or username menggunakan karakter ' (single quote symbol),,2023-04-07 05:33:04,2023-04-07 05:33:14,10.316s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:33:04,2023-04-07 05:33:04,0.006s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:33:04,2023-04-07 05:33:05,1.075s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:33:05,2023-04-07 05:33:05,0.144s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:33:05,2023-04-07 05:33:07,1.366s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:33:07,2023-04-07 05:33:09,2.169s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), ""'testing.brinsgmail.com"")",Chrome 112.0.0.0,,,2023-04-07 05:33:09,2023-04-07 05:33:11,2.196s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_Forbidden_characters""), ""Forbidden character(s) ' in username."")",Chrome 112.0.0.0,,,2023-04-07 05:33:11,2023-04-07 05:33:11,0.439s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 05:33:11,2023-04-07 05:33:12,0.663s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:33:14,2023-04-07 05:33:14,0.000s,PASSED
+,,,,,,,
+Test Cases/LOGIN/validasi input login/VLOG-04,Chrome 112.0.0.0,Input email address or username menggunakan karakter ` (backtick symbol),,2023-04-07 05:33:14,2023-04-07 05:33:24,9.513s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 112.0.0.0,,,2023-04-07 05:33:14,2023-04-07 05:33:14,0.004s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-07 05:33:14,2023-04-07 05:33:16,1.094s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-07 05:33:16,2023-04-07 05:33:16,0.141s,PASSED
+navigateToUrl(website),Chrome 112.0.0.0,,,2023-04-07 05:33:16,2023-04-07 05:33:17,1.325s,PASSED
+"click(findTestObject(""Login-Repo/Login_button(homepage)""))",Chrome 112.0.0.0,,,2023-04-07 05:33:17,2023-04-07 05:33:18,1.443s,PASSED
+"setText(findTestObject(""Login-Repo/Email_inputText""), ""`testing.brinsgmail.com"")",Chrome 112.0.0.0,,,2023-04-07 05:33:18,2023-04-07 05:33:21,2.150s,PASSED
+"verifyElementText(findTestObject(""Login-Repo/Assert-verify-element/Assert_Forbidden_characters""), ""Forbidden character(s) ` in username."")",Chrome 112.0.0.0,,,2023-04-07 05:33:21,2023-04-07 05:33:21,0.436s,PASSED
+closeBrowser(),Chrome 112.0.0.0,,,2023-04-07 05:33:21,2023-04-07 05:33:22,0.657s,PASSED
+Video,Chrome 112.0.0.0,,,2023-04-07 05:33:24,2023-04-07 05:33:24,0.000s,PASSED

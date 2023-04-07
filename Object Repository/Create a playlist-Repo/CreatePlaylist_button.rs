@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CreatePlaylist_button</name>
+   <tag></tag>
+   <elementGuidId>133d5344-ab61-408b-a3b6-9bd33a08b512</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/div[2]/nav/div/div[2]/div/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.Type__TypeElement-sc-goli3j-0.jqNXli.J4xXuqyaJnnwS6s2p3ZB.standalone-ellipsis-one-line</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>05d04fbb-c7e2-47c7-a45e-050a5441793f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Type__TypeElement-sc-goli3j-0 jqNXli J4xXuqyaJnnwS6s2p3ZB standalone-ellipsis-one-line</value>
+      <webElementGuid>d7a29e01-55f4-4287-b7b4-34b4bb3417a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-encore-id</name>
+      <type>Main</type>
+      <value>type</value>
+      <webElementGuid>1e5fe30c-7681-4c19-b7e0-e244610d4c29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Playlist</value>
+      <webElementGuid>8a348d5a-a177-4f98-81ea-219c14eeb994</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;Root encore-dark-theme&quot;]/div[@class=&quot;Root__top-container Root__top-container--right-sidebar-hidden&quot;]/nav[@class=&quot;Root__nav-bar&quot;]/div[@class=&quot;tUwyjggD2n5KvEtP5z1B&quot;]/div[@class=&quot;LKgm9fCDTO7wqig_5U1q&quot;]/div[@class=&quot;EY6S7vlkxB7SF_OjjF_Y&quot;]/div[@class=&quot;GlueDropTarget GlueDropTarget--albums GlueDropTarget--tracks GlueDropTarget--local-tracks GlueDropTarget--episodes&quot;]/button[@class=&quot;IPVjkkhh06nan7aZK7Bx&quot;]/span[@class=&quot;Type__TypeElement-sc-goli3j-0 jqNXli J4xXuqyaJnnwS6s2p3ZB standalone-ellipsis-one-line&quot;]</value>
+      <webElementGuid>c6852a34-fa9d-486d-b5cb-45b4d5dfc31b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/div[2]/nav/div/div[2]/div/div/button/span</value>
+      <webElementGuid>82ba8889-9b06-47aa-b7cd-08b71c594f8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Library'])[1]/following::span[1]</value>
+      <webElementGuid>47385d0f-5173-48d9-b0d5-4c78e4cf3369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::span[2]</value>
+      <webElementGuid>00ef3932-4a22-48df-8ea9-4195d5fdd0af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liked Songs'])[1]/preceding::span[1]</value>
+      <webElementGuid>74747a80-189f-4001-8cbc-4e14fd78a2ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Playlist #96'])[2]/preceding::span[2]</value>
+      <webElementGuid>fa8f675e-960f-4453-b97f-8f1627004a27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Playlist']/parent::*</value>
+      <webElementGuid>5475e843-b0e3-4976-830e-0aa425564008</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/button/span</value>
+      <webElementGuid>8b40a242-c49f-4daa-b2c2-de96f9b7ee2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Create Playlist' or . = 'Create Playlist')]</value>
+      <webElementGuid>a8d6ac77-fb38-4d1a-a9bc-e9b7dcb8e863</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

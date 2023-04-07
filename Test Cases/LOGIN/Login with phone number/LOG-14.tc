@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan phone number terdaftar.</description>
+   <name>LOG-14</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41c5b4cf-bdab-47c6-84b2-4b5da229812e</testCaseGuid>
+</TestCaseEntity>

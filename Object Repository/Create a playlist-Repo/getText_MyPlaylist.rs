@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>getText_MyPlaylist</name>
+   <tag></tag>
+   <elementGuidId>cc6c476b-6cc2-4a2b-b3f6-89a4f4fee4fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/div[2]/div[3]/div/div[2]/div[2]/div/div/div[2]/main/div/section/div/div[5]/span[2]/button/span/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.Type__TypeElement-sc-goli3j-0.bZdlXz</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>94d0df04-7601-4808-b59a-f78cc6e37a9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>auto</value>
+      <webElementGuid>f7285f63-2047-422e-a192-5311010ee8bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-encore-id</name>
+      <type>Main</type>
+      <value>type</value>
+      <webElementGuid>ebe7bf05-1264-4679-b5b8-081b4a632ab8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Type__TypeElement-sc-goli3j-0 bZdlXz</value>
+      <webElementGuid>40c60b0e-ece7-4781-bb4b-2869b3db6f6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Playlist #96</value>
+      <webElementGuid>20bd8fd8-68d9-4fdd-bacd-bd84cc5c25d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;Root encore-dark-theme&quot;]/div[@class=&quot;Root__top-container Root__top-container--right-sidebar-hidden&quot;]/div[@class=&quot;Root__main-view&quot;]/div[@class=&quot;main-view-container&quot;]/div[@class=&quot;os-host os-host-foreign os-theme-spotify os-host-resize-disabled os-host-scrollbar-horizontal-hidden main-view-container__scroll-node os-host-transition os-host-overflow os-host-overflow-y&quot;]/div[@class=&quot;os-padding&quot;]/div[@class=&quot;os-viewport os-viewport-native-scrollbars-invisible&quot;]/div[@class=&quot;os-content&quot;]/div[@class=&quot;main-view-container__scroll-node-child&quot;]/main[1]/div[@class=&quot;GlueDropTarget GlueDropTarget--tracks GlueDropTarget--local-tracks GlueDropTarget--episodes GlueDropTarget--albums&quot;]/section[@class=&quot;dZ3U5sTGUTdanNamXe1z&quot;]/div[@class=&quot;contentSpacing NXiYChVp4Oydfxd7rT5r RMDSGDMFrx8eXHpFphqG&quot;]/div[@class=&quot;RP2rRchy4i8TIp1CTmb7&quot;]/span[@class=&quot;rEN7ncpaUeSGL9z0NGQR&quot;]/button[@class=&quot;wCkmVGEQh3je1hrbsFBY&quot;]/span[@class=&quot;o4KVKZmeHsoRZ2Ltl078&quot;]/h1[@class=&quot;Type__TypeElement-sc-goli3j-0 bZdlXz&quot;]</value>
+      <webElementGuid>cbe98fdc-24c3-4497-9c85-1892207e4c2d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div/div[2]/div[3]/div/div[2]/div[2]/div/div/div[2]/main/div/section/div/div[5]/span[2]/button/span/h1</value>
+      <webElementGuid>675c425a-d2ca-4455-b1a5-845a350bc636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Playlist'])[1]/following::h1[1]</value>
+      <webElementGuid>37f5e281-2b4f-4931-9413-60828243c1ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose photo'])[1]/following::h1[1]</value>
+      <webElementGuid>e06f08e3-8d36-4c79-95c9-d49c793ab58f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing Brins'])[2]/preceding::h1[1]</value>
+      <webElementGuid>23525edc-a72c-4c26-8683-0399ff281314</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Let', &quot;'&quot;, 's find something for your playlist')])[1]/preceding::h1[1]</value>
+      <webElementGuid>bb7ca793-4a9f-4ee7-8d45-8f79e16bafa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>781d56a3-ac6e-41ad-9a3d-a657e574d87c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'My Playlist #96' or . = 'My Playlist #96')]</value>
+      <webElementGuid>834a4b11-d8a9-4760-905d-ad94102c7bec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

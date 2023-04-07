@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan email yang tidak terdaftar dan kata sandi yang benar.</description>
+   <name>LOG-07</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bff807c6-8d15-46e5-9725-9e2c4e2db29a</testCaseGuid>
+</TestCaseEntity>

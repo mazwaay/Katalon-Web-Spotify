@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Input email address or username menggunakan karakter &amp; (ampersand symbol)</description>
+   <name>VLOG-01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60deed71-0420-4e09-9353-2fd6d3229b31</testCaseGuid>
+</TestCaseEntity>

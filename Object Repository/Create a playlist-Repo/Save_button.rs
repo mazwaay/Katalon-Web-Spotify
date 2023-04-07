@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Save_button</name>
+   <tag></tag>
+   <elementGuidId>ecf58740-62e9-4fa2-b88d-fc1aca21013a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ButtonInner-sc-14ud5tc-0.iIKcFo.encore-inverted-light-set</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>032fbba7-d42b-45b5-b366-24c528a62d6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ButtonInner-sc-14ud5tc-0 iIKcFo encore-inverted-light-set</value>
+      <webElementGuid>feb9bff0-4c6f-45b4-af1c-5222c827c70e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>2745084d-7d11-441c-9671-3a9eea2063c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;no-focus-outline spotify__os--is-windows spotify__container--is-web&quot;]/body[@class=&quot;GenericModal__Body--open&quot;]/div[@class=&quot;ReactModalPortal&quot;]/div[@class=&quot;GenericModal__overlay&quot;]/div[@class=&quot;GenericModal encore-dark-theme&quot;]/div[@class=&quot;PiyAiXdQULEnWAHP0tu1&quot;]/div[@class=&quot;CU0wnmWejIvyEsRRtSac&quot;]/div[@class=&quot;Up_Ke_BKTraatSMY_Po_&quot;]/button[@class=&quot;Button-sc-qlcn5g-0 eeDakC&quot;]/span[@class=&quot;ButtonInner-sc-14ud5tc-0 iIKcFo encore-inverted-light-set&quot;]</value>
+      <webElementGuid>7f326e48-1b6d-4f75-b75a-1f77e8b14b90</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::span[2]</value>
+      <webElementGuid>a9757c24-5891-4f32-95c6-218ca00276f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::span[3]</value>
+      <webElementGuid>fa3d9703-8a21-4d90-ad0b-d4b055f779c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
+      <webElementGuid>5bdd56de-47c7-43f8-9e0b-6c335277090d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button/span</value>
+      <webElementGuid>0aaafc81-062d-401c-ba68-08d55e40e15c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>428e1d55-b2d9-4c13-8a41-8823e049f07f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
